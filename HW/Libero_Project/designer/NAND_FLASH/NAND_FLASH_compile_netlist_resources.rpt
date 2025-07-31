@@ -1,0 +1,197 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release v2023.1 (Version 2023.1.0.6)
+Date: Thu Jul 31 15:50:24 2025
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S050         |
+| Package                        | 484 FBGA       |
+| Speed Grade                    | STD            |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+------------------------------------------------------------------+
+| Topcell | NAND_FLASH                                                       |
+| Format  | Verilog                                                          |
+| Source  | C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\NAND_FLASH.vm |
++---------+------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 2193 | 56340 | 3.89       |
+| DFF                       | 1087 | 56340 | 1.93       |
+| I/O Register              | 0    | 801   | 0.00       |
+| User I/O                  | 19   | 267   | 7.12       |
+| -- Single-ended I/O       | 19   | 267   | 7.12       |
+| -- Differential I/O Pairs | 0    | 133   | 0.00       |
+| RAM64x18                  | 3    | 72    | 4.17       |
+| RAM1K18                   | 8    | 69    | 11.59      |
+| MACC                      | 0    | 72    | 0.00       |
+| Chip Globals              | 5    | 16    | 31.25      |
+| CCC                       | 1    | 6     | 16.67      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+------+
+| Type                     | 4LUT | DFF  |
++--------------------------+------+------+
+| Fabric Logic             | 1797 | 691  |
+| RAM64x18 Interface Logic | 108  | 108  |
+| RAM1K18 Interface Logic  | 288  | 288  |
+| MACC Interface Logic     | 0    | 0    |
+| Total Used               | 2193 | 1087 |
++--------------------------+------+------+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 0    | 2     |
+| UART          | 1    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 13   |
+| 27     | 4    |
+| 28     | 1    |
+| 32     | 3    |
+| 33     | 6    |
+| 63     | 1    |
+| Total  | 28   |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 3            | 0           | 0               |
+| Output I/O                    | 8            | 0           | 0               |
+| Bidirectional I/O             | 8            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  3    |  8     |  8            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+----------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                       |
++--------+---------+----------------------------------------------------------------------------+
+| 702    | INT_NET | Net   : NAND_FLASH_sb_0/GL0_INST                                           |
+|        |         | Driver: NAND_FLASH_sb_0/CCC_0/GL0_INST/U0_RGB1                             |
+|        |         | Source: NETLIST                                                            |
+| 208    | INT_NET | Net   : NAND_FLASH_sb_0/AND2_0_Y_arst                                      |
+|        |         | Driver: NAND_FLASH_sb_0/AND2_0_RNIJKQB/U0_RGB1                             |
+|        |         | Source: NETLIST                                                            |
+| 20     | INT_NET | Net   : NAND_FLASH_sb_0/CORERESETP_0/sm0_areset_n_clk_base_Z               |
+|        |         | Driver: NAND_FLASH_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIBFPE/U0_RGB1 |
+|        |         | Source: NETLIST                                                            |
+| 15     | INT_NET | Net   : NAND_FLASH_sb_0/FABOSC_0_RCOSC_25_50MHZ_O2F                        |
+|        |         | Driver: NAND_FLASH_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1       |
+|        |         | Source: NETLIST                                                            |
+| 12     | INT_NET | Net   : NAND_FLASH_sb_0/CORERESETP_0/sm0_areset_n_arst                     |
+|        |         | Driver: NAND_FLASH_sb_0/CORERESETP_0/sdif0_areset_n_RNIU0L4/U0_RGB1        |
+|        |         | Source: NETLIST                                                            |
++--------+---------+----------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+--------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                   |
++--------+---------+--------------------------------------------------------------------------------------------------------+
+| 63     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate_Z[0]                                 |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate[0]                                   |
+| 57     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/state_Z[1]                                    |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/state[1]                                      |
+| 57     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/tmp_int39_Z                                   |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/tmp_int39                                     |
+| 53     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate_Z[1]                                 |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate[1]                                   |
+| 53     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/un1_substate_0_sqmuxa_Z                       |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/un1_substate_0_sqmuxa                         |
+| 52     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx[1]                                   |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx_1[1]                                 |
+| 48     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/N_1560_i                                      |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/IO_RD/state_ns_1_0_.status_0_sqmuxa_1_RNI3ORB |
+| 44     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx[0]                                   |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx_1[0]                                 |
+| 41     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate_Z[2]                                 |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate[2]                                   |
+| 39     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/VeRRptcNt0_0_sqmuxa_0_a2_iso                                |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/_capp.VeRRptcNt0_0_sqmuxa_0_a2_iso                          |
++--------+---------+--------------------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+--------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                   |
++--------+---------+--------------------------------------------------------------------------------------------------------+
+| 63     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate_Z[0]                                 |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate[0]                                   |
+| 57     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/state_Z[1]                                    |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/state[1]                                      |
+| 57     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/tmp_int39_Z                                   |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/tmp_int39                                     |
+| 53     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate_Z[1]                                 |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate[1]                                   |
+| 53     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/un1_substate_0_sqmuxa_Z                       |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/un1_substate_0_sqmuxa                         |
+| 52     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx[1]                                   |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx_1[1]                                 |
+| 48     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/N_1560_i                                      |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/IO_RD/state_ns_1_0_.status_0_sqmuxa_1_RNI3ORB |
+| 44     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx[0]                                   |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx_1[0]                                 |
+| 41     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate_Z[2]                                 |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate[2]                                   |
+| 39     | INT_NET | Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/VeRRptcNt0_0_sqmuxa_0_a2_iso                                |
+|        |         | Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/_capp.VeRRptcNt0_0_sqmuxa_0_a2_iso                          |
++--------+---------+--------------------------------------------------------------------------------------------------------+
+

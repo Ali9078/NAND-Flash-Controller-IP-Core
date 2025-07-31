@@ -1,0 +1,148 @@
+
+fsm_encoding {1010894108911} onehot
+
+fsm_state_encoding {1010894108911} 000 {0000001}
+
+fsm_state_encoding {1010894108911} 001 {0000010}
+
+fsm_state_encoding {1010894108911} 010 {0000100}
+
+fsm_state_encoding {1010894108911} 011 {0001000}
+
+fsm_state_encoding {1010894108911} 100 {0010000}
+
+fsm_state_encoding {1010894108911} 101 {0100000}
+
+fsm_state_encoding {1010894108911} 110 {1000000}
+
+fsm_registers {1010894108911} {sm0_state[6]}  {sm0_state[5]}  {sm0_state[4]}  {sm0_state[3]}  {sm0_state[2]}  {sm0_state[1]}  {sm0_state[0]} 
+
+fsm_encoding {18510516} onehot
+
+fsm_state_encoding {18510516} LATCH_INIT {00001}
+
+fsm_state_encoding {18510516} LATCH_IDLE {00010}
+
+fsm_state_encoding {18510516} LATCH_HOLD {00100}
+
+fsm_state_encoding {18510516} LATCH_WAIT {01000}
+
+fsm_state_encoding {18510516} LATCH_DELAY {10000}
+
+fsm_registers {18510516} {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {18510515} onehot
+
+fsm_state_encoding {18510515} LATCH_INIT {00001}
+
+fsm_state_encoding {18510515} LATCH_IDLE {00010}
+
+fsm_state_encoding {18510515} LATCH_HOLD {00100}
+
+fsm_state_encoding {18510515} LATCH_WAIT {01000}
+
+fsm_state_encoding {18510515} LATCH_DELAY {10000}
+
+fsm_registers {18510515} {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {16480484} sequential
+
+fsm_state_encoding {16480484} IO_INIT {00}
+
+fsm_state_encoding {16480484} IO_IDLE {01}
+
+fsm_state_encoding {16480484} IO_HOLD {10}
+
+fsm_state_encoding {16480484} IO_DELAY {11}
+
+fsm_registers {16480484} {state[1]}  {state[0]} 
+
+fsm_encoding {16480483} sequential
+
+fsm_state_encoding {16480483} IO_INIT {00}
+
+fsm_state_encoding {16480483} IO_IDLE {01}
+
+fsm_state_encoding {16480483} IO_HOLD {10}
+
+fsm_state_encoding {16480483} IO_DELAY {11}
+
+fsm_registers {16480483} {state[1]}  {state[0]} 
+
+fsm_encoding {2015141512} onehot
+
+fsm_state_encoding {2015141512} M_IDLE {00000000000000000000000000000001}
+
+fsm_state_encoding {2015141512} M_RESET {00000000000000000000000000000010}
+
+fsm_state_encoding {2015141512} M_WAIT {00000000000000000000000000000100}
+
+fsm_state_encoding {2015141512} M_DELAY {00000000000000000000000000001000}
+
+fsm_state_encoding {2015141512} M_NAND_RESET {00000000000000000000000000010000}
+
+fsm_state_encoding {2015141512} M_NAND_READ_PARAM_PAGE {00000000000000000000000000100000}
+
+fsm_state_encoding {2015141512} M_NAND_READ_ID {00000000000000000000000001000000}
+
+fsm_state_encoding {2015141512} M_NAND_BLOCK_ERASE {00000000000000000000000010000000}
+
+fsm_state_encoding {2015141512} M_NAND_READ_STATUS {00000000000000000000000100000000}
+
+fsm_state_encoding {2015141512} M_NAND_READ {00000000000000000000001000000000}
+
+fsm_state_encoding {2015141512} 001010 {00000000000000000000010000000000}
+
+fsm_state_encoding {2015141512} 001011 {00000000000000000000100000000000}
+
+fsm_state_encoding {2015141512} M_NAND_PAGE_PROGRAM {00000000000000000001000000000000}
+
+fsm_state_encoding {2015141512} MI_GET_STATUS {00000000000000000010000000000000}
+
+fsm_state_encoding {2015141512} MI_CHIP1_ENABLE {00000000000000000100000000000000}
+
+fsm_state_encoding {2015141512} MI_CHIP_DISABLE {00000000000000001000000000000000}
+
+fsm_state_encoding {2015141512} MI_WRITE_PROTECT {00000000000000010000000000000000}
+
+fsm_state_encoding {2015141512} MI_WRITE_ENABLE {00000000000000100000000000000000}
+
+fsm_state_encoding {2015141512} MI_RESET_INDEX {00000000000001000000000000000000}
+
+fsm_state_encoding {2015141512} MI_GET_ID_BYTE {00000000000010000000000000000000}
+
+fsm_state_encoding {2015141512} MI_GET_PARAM_PAGE_BYTE {00000000000100000000000000000000}
+
+fsm_state_encoding {2015141512} MI_GET_DATA_PAGE_BYTE {00000000001000000000000000000000}
+
+fsm_state_encoding {2015141512} MI_SET_DATA_PAGE_BYTE {00000000010000000000000000000000}
+
+fsm_state_encoding {2015141512} MI_GET_CURRENT_ADDRESS_BYTE {00000000100000000000000000000000}
+
+fsm_state_encoding {2015141512} MI_SET_CURRENT_ADDRESS_BYTE {00000001000000000000000000000000}
+
+fsm_state_encoding {2015141512} MI_BYPASS_ADDRESS {00000010000000000000000000000000}
+
+fsm_state_encoding {2015141512} MI_BYPASS_COMMAND {00000100000000000000000000000000}
+
+fsm_state_encoding {2015141512} MI_BYPASS_DATA_WR {00001000000000000000000000000000}
+
+fsm_state_encoding {2015141512} MI_BYPASS_DATA_RD {00010000000000000000000000000000}
+
+fsm_state_encoding {2015141512} MI_CHIP2_ENABLE {00100000000000000000000000000000}
+
+fsm_state_encoding {2015141512} 011110 {01000000000000000000000000000000}
+
+fsm_state_encoding {2015141512} 011111 {10000000000000000000000000000000}
+
+fsm_registers {2015141512} {state[31]}  {state[30]}  {state[29]}  {state[28]}  {state[27]}  {state[26]}  {state[25]}  {state[24]}  {state[23]}  {state[22]}  {state[21]}  {state[20]}  {state[19]}  {state[18]}  {state[17]}  {state[16]}  {state[15]}  {state[14]}  {state[13]}  {state[12]}  {state[11]}  {state[10]}  {state[9]}  {state[8]}  {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {22794791} sequential
+
+fsm_state_encoding {22794791} 001 {00}
+
+fsm_state_encoding {22794791} 010 {01}
+
+fsm_state_encoding {22794791} 100 {10}
+
+fsm_registers {22794791} {un1_PADDR[1]}  {un1_PADDR[0]} 

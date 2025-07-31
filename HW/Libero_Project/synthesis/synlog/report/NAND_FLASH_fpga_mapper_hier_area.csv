@@ -1,0 +1,16 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. NAND_FLASH, 691, 1277, 515, 0, 0, 8, 3, 5, 19
+.	. NAND_FLASH_sb, 691, 1277, 515, 0, 0, 8, 3, 5, 2
+.	.	. CoreAPB3_C0, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. CoreAPB3_Z1, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreResetP_Z2, 46, 9, 0, 0, 0, 0, 0, 2, 0
+.	.	. NAND_FLASH_sb_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. NAND_FLASH_sb_FABOSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. NAND_FLASH_sb_MSS, 0, 9, 0, 0, 0, 0, 0, 0, 2
+.	.	. nand_apb_wrapper, 645, 1257, 515, 0, 0, 8, 3, 0, 0
+.	.	.	. nand_master, 557, 1143, 451, 0, 0, 8, 3, 0, 0
+.	.	.	.	. io_unit_0s_0_1_2_3, 44, 666, 55, 0, 0, 0, 0, 0, 0
+.	.	.	.	. io_unit_1s_0_1_2_3, 47, 69, 27, 0, 0, 0, 0, 0, 0
+.	.	.	.	. latch_unit_0s_0_1_2_3_4, 44, 92, 27, 0, 0, 0, 0, 0, 0
+.	.	.	.	. latch_unit_1s_0_1_2_3_4, 42, 99, 27, 0, 0, 0, 0, 0, 0

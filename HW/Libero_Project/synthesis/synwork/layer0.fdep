@@ -1,0 +1,111 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\synthesis\\synwork\\NAND_FLASH_comp.srs|-top|NAND_FLASH|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\hdl|-I|C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2023.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2023.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.1\\SynplifyPro\\bin64\\c_ver.exe":1679051023
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1679051035
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1679051038
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1679051038
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1679051038
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1679051038
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3_muxptob3.v":1744050177
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3_iaddr_reg.v":1744050177
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3.v":1744050177
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\component\\work\\CoreAPB3_C0\\CoreAPB3_C0.v":1753955423
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1744734539
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1744734539
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\component\\work\\NAND_FLASH_sb\\CCC_0\\NAND_FLASH_sb_CCC_0_FCCC.v":1753955528
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1744734540
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\component\\work\\NAND_FLASH_sb\\FABOSC_0\\NAND_FLASH_sb_FABOSC_0_OSC.v":1753955529
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\component\\work\\NAND_FLASH_sb_MSS\\NAND_FLASH_sb_MSS_syn.v":1753955317
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\component\\work\\NAND_FLASH_sb_MSS\\NAND_FLASH_sb_MSS.v":1753955318
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\hdl\\io_unit.v":1753956713
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\hdl\\onfi_package.v":1753957015
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\hdl\\latch_unit.v":1753956661
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\hdl\\onfi_package.v":1753957015
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\hdl\\nand_master.v":1753957045
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\hdl\\onfi_package.v":1753957015
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\hdl\\nand_apb_wrapper.v":1753956604
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\component\\work\\NAND_FLASH_sb\\NAND_FLASH_sb.v":1753955529
+#CUR:"C:\\Users\\alimu\\Music\\Ali\\NAND_FLASH_CORE\\component\\work\\NAND_FLASH\\NAND_FLASH.v":1753955557
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" verilog
+1			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" verilog
+2			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" verilog
+3			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\CoreAPB3_C0\CoreAPB3_C0.v" verilog
+4			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+5			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+6			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\CCC_0\NAND_FLASH_sb_CCC_0_FCCC.v" verilog
+7			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+8			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\FABOSC_0\NAND_FLASH_sb_FABOSC_0_OSC.v" verilog
+9			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb_MSS\NAND_FLASH_sb_MSS_syn.v" verilog
+10			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb_MSS\NAND_FLASH_sb_MSS.v" verilog
+11			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v" verilog
+12		*	"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\onfi_package.v" verilog
+13			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v" verilog
+14			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v" verilog
+15			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_apb_wrapper.v" verilog
+16			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\NAND_FLASH_sb.v" verilog
+17			"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH\NAND_FLASH.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 0 1
+3 2
+4 -1
+5 4
+6 -1
+7 -1
+8 7
+9 -1
+10 9
+11 12
+12 -1
+13 12
+14 12 13 11
+15 14 12
+16 6 3 5 8 15 10
+17 16
+#Dependency Lists(Users Of)
+0 2
+1 2
+2 3
+3 16
+4 5
+5 16
+6 16
+7 8
+8 16
+9 10
+10 16
+11 14
+12 11 13 14 15
+13 14
+14 15
+15 16
+16 17
+17 -1
+#Design Unit to File Association
+module work CoreAPB3_C0 3
+module work coreresetp_pcie_hotreset 4
+module work CoreResetP 5
+module work NAND_FLASH_sb_CCC_0_FCCC 6
+module work RCOSC_1MHZ 7
+module work RCOSC_25_50MHZ 7
+module work XTLOSC 7
+module work RCOSC_1MHZ_FAB 7
+module work RCOSC_25_50MHZ_FAB 7
+module work XTLOSC_FAB 7
+module work NAND_FLASH_sb_FABOSC_0_OSC 8
+module work MSS_050 9
+module work NAND_FLASH_sb_MSS 10
+package work work_C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v_unit 12
+module work io_unit 11
+package work work_C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v_unit 12
+module work latch_unit 13
+package work work_C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v_unit 12
+module work nand_master 14
+module work nand_apb_wrapper 15
+module work NAND_FLASH_sb 16
+module work NAND_FLASH 17
+module COREAPB3_LIB COREAPB3_MUXPTOB3 0
+module COREAPB3_LIB coreapb3_iaddr_reg 1
+module COREAPB3_LIB CoreAPB3 2

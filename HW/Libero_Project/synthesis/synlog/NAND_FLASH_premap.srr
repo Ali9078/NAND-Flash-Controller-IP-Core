@@ -1,0 +1,261 @@
+# Thu Jul 31 15:50:08 2025
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: C:\Microchip\Libero_SoC_v2023.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-KS8LRTD
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202209actsp2, Build 067R, Built Mar  9 2023 04:11:46, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 126MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 139MB)
+
+Reading constraint file: C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\designer\NAND_FLASH\synthesis.fdc
+@L: C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\NAND_FLASH_scck.rpt 
+See clock summary report "C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\NAND_FLASH_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+NConnInternalConnection caching is on
+@W: BN132 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance NAND_FLASH_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance NAND_FLASH_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.delay[26:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.n_state[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.init_counter[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.init_complete is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.delay[26:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.n_state[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.init_counter[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.init_complete is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.delay[26:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.init_counter[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.n_state[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.data_reg[15:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.init_complete is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_RD.delay[26:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_RD.init_counter[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_RD.n_state[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_RD.data_reg[15:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_RD.init_complete is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.byte_count[31:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.nand_nwp is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.substate[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.page_idx[31:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.status[4:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.delay[27:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.nand_nce2 is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.nand_nce is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.n_state[4:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":79:4:79:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.apb_start is being ignored due to limitations in architecture. 
+@N: FX1171 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":79:4:79:9|Found instance NAND_FLASH_sb_0.nand_apb_wrapper_0.PREADY with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":79:4:79:9|Found instance NAND_FLASH_sb_0.nand_apb_wrapper_0.apb_start with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":79:4:79:9|Found instance NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0[31:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":79:4:79:9|Found instance NAND_FLASH_sb_0.nand_apb_wrapper_0.trigger_activate_next_cycle with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 179MB peak: 179MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 179MB peak: 179MB)
+
+@A: BN323 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":111:23:114:31|Bus conflict on tristate un8_nand_data[14] (net nand_data[15] (in view: work.nand_master(verilog)))
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.sm1_areset_n_clk_base is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 179MB peak: 179MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 179MB peak: 180MB)
+
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance sdif0_state[3:0] (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance sdif1_state[3:0] (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance sdif2_state[3:0] (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance sdif3_state[3:0] (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=69 on top level netlist NAND_FLASH 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 181MB peak: 181MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                            Requested     Requested     Clock        Clock          Clock
+Level     Clock                                                            Frequency     Period        Type         Group          Load 
+----------------------------------------------------------------------------------------------------------------------------------------
+0 -       NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)     720  
+                                                                                                                                        
+0 -       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     15   
+========================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                 Clock     Source                                                               Clock Pin                                                            Non-clock Pin     Non-clock Pin                                                      
+Clock                                                            Load      Pin                                                                  Seq Example                                                          Seq Example       Comb Example                                                       
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock                  720       NAND_FLASH_sb_0.CCC_0.CCC_INST.GL0(CCC)                              NAND_FLASH_sb_0.nand_apb_wrapper_0.trigger_activate_next_cycle.C     -                 NAND_FLASH_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                                          
+NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        NAND_FLASH_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     NAND_FLASH_sb_0.CORERESETP_0.release_sdif0_core.C                    -                 NAND_FLASH_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+==========================================================================================================================================================================================================================================================================================================
+
+@W: MT530 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":565:4:565:9|Found inferred clock NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 720 sequential elements including NAND_FLASH_sb_0.CORERESETP_0.MSS_HPMS_READY_int. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Found inferred clock NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock which controls 15 sequential elements including NAND_FLASH_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\NAND_FLASH.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 180MB peak: 182MB)
+
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z2(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine state[4:0] (in view: work.latch_unit_0s_0_1_2_3_4(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine state[4:0] (in view: work.latch_unit_1s_0_1_2_3_4(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine state[3:0] (in view: work.io_unit_1s_0_1_2_3(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+@N: MO225 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|There are no possible illegal states for state machine state[3:0] (in view: work.io_unit_1s_0_1_2_3(verilog)); safe FSM implementation is not required.
+Encoding state machine state[3:0] (in view: work.io_unit_0s_0_1_2_3(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+@N: MO225 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|There are no possible illegal states for state machine state[3:0] (in view: work.io_unit_0s_0_1_2_3(verilog)); safe FSM implementation is not required.
+Encoding state machine state[31:0] (in view: work.nand_master(verilog))
+original code -> new code
+   000000 -> 00000000000000000000000000000001
+   000001 -> 00000000000000000000000000000010
+   000010 -> 00000000000000000000000000000100
+   000011 -> 00000000000000000000000000001000
+   000100 -> 00000000000000000000000000010000
+   000101 -> 00000000000000000000000000100000
+   000110 -> 00000000000000000000000001000000
+   000111 -> 00000000000000000000000010000000
+   001000 -> 00000000000000000000000100000000
+   001001 -> 00000000000000000000001000000000
+   001010 -> 00000000000000000000010000000000
+   001011 -> 00000000000000000000100000000000
+   001100 -> 00000000000000000001000000000000
+   001101 -> 00000000000000000010000000000000
+   001110 -> 00000000000000000100000000000000
+   001111 -> 00000000000000001000000000000000
+   010000 -> 00000000000000010000000000000000
+   010001 -> 00000000000000100000000000000000
+   010010 -> 00000000000001000000000000000000
+   010011 -> 00000000000010000000000000000000
+   010100 -> 00000000000100000000000000000000
+   010101 -> 00000000001000000000000000000000
+   010110 -> 00000000010000000000000000000000
+   010111 -> 00000000100000000000000000000000
+   011000 -> 00000001000000000000000000000000
+   011001 -> 00000010000000000000000000000000
+   011010 -> 00000100000000000000000000000000
+   011011 -> 00001000000000000000000000000000
+   011100 -> 00010000000000000000000000000000
+   011101 -> 00100000000000000000000000000000
+   011110 -> 01000000000000000000000000000000
+   011111 -> 10000000000000000000000000000000
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance state[10] (in view: work.nand_master(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+Encoding state machine un1_PADDR[2:0] (in view: work.nand_apb_wrapper(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 215MB peak: 215MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 216MB peak: 216MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 95MB peak: 217MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Thu Jul 31 15:50:11 2025
+
+###########################################################]

@@ -1,0 +1,101 @@
+
+                               Synplify Pro (R) 
+
+                Version T-2022.09M-SP2 for win64 - Mar 08, 2023 
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microchip\Libero_SoC_v2023.1\SynplifyPro
+Hostname:    DESKTOP-KS8LRTD
+Date:        Thu Jul 31 15:24:20 2025
+Version:     T-2022.09M-SP2
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log NAND_FLASH_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+"automatic_compile_point" is unrecognized option for current device
+Implementation not found: synthesis
+log file: "C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\NAND_FLASH.srr"
+Running: synthesis in foreground
+
+Running NAND_FLASH_syn|synthesis
+
+Running Flow: compile (Compile) on NAND_FLASH_syn|synthesis
+# Thu Jul 31 15:24:20 2025
+
+Running Flow: compile_flow (Compile Process) on NAND_FLASH_syn|synthesis
+# Thu Jul 31 15:24:20 2025
+
+Running: compiler (Compile Input) on NAND_FLASH_syn|synthesis
+# Thu Jul 31 15:24:20 2025
+Copied C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\synwork\NAND_FLASH_comp.srs to C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\NAND_FLASH.srs
+
+compiler completed
+# Thu Jul 31 15:24:35 2025
+
+Return Code: 0
+Run Time:00h:00m:14s
+
+Running: multi_srs_gen (Multi-srs Generator) on NAND_FLASH_syn|synthesis
+# Thu Jul 31 15:24:35 2025
+
+multi_srs_gen completed
+# Thu Jul 31 15:24:35 2025
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\synwork\NAND_FLASH_mult.srs to C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\NAND_FLASH.srs
+Complete: Compile Process on NAND_FLASH_syn|synthesis
+
+Running: premap (Premap) on NAND_FLASH_syn|synthesis
+# Thu Jul 31 15:24:35 2025
+
+premap completed with warnings
+# Thu Jul 31 15:24:39 2025
+
+Return Code: 1
+Run Time:00h:00m:04s
+Complete: Compile on NAND_FLASH_syn|synthesis
+
+Running Flow: map (Map) on NAND_FLASH_syn|synthesis
+# Thu Jul 31 15:24:39 2025
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on NAND_FLASH_syn|synthesis
+# Thu Jul 31 15:24:39 2025
+Copied C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\synwork\NAND_FLASH_m.srm to C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\NAND_FLASH.srm
+
+fpga_mapper completed with warnings
+# Thu Jul 31 15:24:46 2025
+
+Return Code: 1
+Run Time:00h:00m:07s
+Complete: Map on NAND_FLASH_syn|synthesis
+Complete: Logic Synthesis on NAND_FLASH_syn|synthesis
+Copied C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\NAND_FLASH.srr to C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\backup\NAND_FLASH.srr
+TCL script complete: "NAND_FLASH_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

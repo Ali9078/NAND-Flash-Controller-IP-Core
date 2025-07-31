@@ -1,0 +1,498 @@
+<html>
+    <head>
+        <style>
+      body { font-family:arial; font-size:10pt; text-align:left; }
+      h1, h2 {
+          padding-top: 30px;
+      }
+      h3 {
+          padding-top: 20px;
+      }
+      h4, h5, h6 {
+          padding-top: 10px;
+          font-size:12pt;
+      }
+      table {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          border-collapse:collapse;
+      }
+      table th, table td {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          padding: 4px;
+      }
+     </style>
+    </head>
+    <body>
+        <h1 align="center">Global Net Report</h1>
+        <p>Microchip Technology Inc. - Microchip Libero Software Release v2023.1 (Version 2023.1.0.6)</p>
+        <p>Date: Thu Jul 31 15:50:34 2025
+</p>
+        <h2>Global Nets Information</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> GB Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>GB[6] </td>
+                <td>(440, 108)</td>
+                <td>NAND_FLASH_sb_0/CCC_0/GL0_INST/U0_YWn_GEast</td>
+                <td>702</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>GB[7] </td>
+                <td>(441, 108)</td>
+                <td>NAND_FLASH_sb_0/AND2_0_RNIJKQB/U0_YWn_GEast</td>
+                <td>208</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>GB[3] </td>
+                <td>(437, 108)</td>
+                <td>NAND_FLASH_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIBFPE/U0_YWn_GEast</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>GB[5] </td>
+                <td>(439, 108)</td>
+                <td>NAND_FLASH_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YWn_GEast</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>GB[2] </td>
+                <td>(436, 108)</td>
+                <td>NAND_FLASH_sb_0/CORERESETP_0/sdif0_areset_n_RNIU0L4/U0_YWn_GEast</td>
+                <td>12</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>I/O to GB Connections</h2>
+        <p>(none)</p>
+        <h2>Fabric to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>NAND_FLASH_sb_0/AND2_0:Y</td>
+                <td>(756, 156)</td>
+                <td>GB[7] </td>
+                <td>NAND_FLASH_sb_0/AND2_0_Y</td>
+                <td>ROUTED</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>NAND_FLASH_sb_0/CORERESETP_0/sm0_areset_n_clk_base:Q</td>
+                <td>(729, 139)</td>
+                <td>GB[3] </td>
+                <td>NAND_FLASH_sb_0/CORERESETP_0/sm0_areset_n_clk_base_0</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>NAND_FLASH_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB:CLKOUT</td>
+                <td>(25, 194)</td>
+                <td>GB[5] </td>
+                <td>NAND_FLASH_sb_0/FABOSC_0/N_RCOSC_25_50MHZ_CLKINT</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>NAND_FLASH_sb_0/CORERESETP_0/sdif0_areset_n:Y</td>
+                <td>(866, 150)</td>
+                <td>GB[2] </td>
+                <td>NAND_FLASH_sb_0/CORERESETP_0/sm0_areset_n</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>CCC to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th>Pin Swapped for Back Annotation Only</th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>NAND_FLASH_sb_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</td>
+                <td>CCC-NW1 (18, 194)</td>
+                <td>GL0 =&gt; GL2</td>
+                <td>GB[6] </td>
+                <td>NAND_FLASH_sb_0/CCC_0/GL0_net</td>
+                <td>HARDWIRED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>CCC Input Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To (Pin Swapped for Back Annotation Only) </th>
+                <th> CCC Location </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>NAND_FLASH_sb_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</td>
+                <td>(24, 194)</td>
+                <td>NAND_FLASH_sb_0/CCC_0/CCC_INST/INST_CCC_IP:RCOSC_25_50MHZ</td>
+                <td>CCC-NW1 (18, 194)</td>
+                <td>NAND_FLASH_sb_0/FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC</td>
+                <td>HARDWIRED</td>
+                <td>2</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Local Nets to RGB Connections</h2>
+        <p>(none)</p>
+        <h2>Global Nets to RGB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+                <th/>
+                <th> RGB Location </th>
+                <th> RGB Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>GB[6] </td>
+                <td>(440, 108)</td>
+                <td>NAND_FLASH_sb_0/CCC_0/GL0_INST/U0_YWn_GEast</td>
+                <td>702</td>
+                <td>1</td>
+                <td>(662, 132)</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(662, 141)</td>
+                <td>54</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(662, 186)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(663, 120)</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(663, 123)</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>6</td>
+                <td>(663, 126)</td>
+                <td>63</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>7</td>
+                <td>(663, 129)</td>
+                <td>47</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>8</td>
+                <td>(663, 135)</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>9</td>
+                <td>(663, 138)</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>10</td>
+                <td>(663, 144)</td>
+                <td>63</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>11</td>
+                <td>(663, 147)</td>
+                <td>64</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>12</td>
+                <td>(663, 150)</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>13</td>
+                <td>(663, 159)</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>14</td>
+                <td>(664, 153)</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>15</td>
+                <td>(665, 156)</td>
+                <td>54</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>GB[7] </td>
+                <td>(441, 108)</td>
+                <td>NAND_FLASH_sb_0/AND2_0_RNIJKQB/U0_YWn_GEast</td>
+                <td>208</td>
+                <td>1</td>
+                <td>(662, 120)</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(662, 123)</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(662, 126)</td>
+                <td>63</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>4</td>
+                <td>(662, 129)</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>5</td>
+                <td>(662, 135)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>6</td>
+                <td>(662, 144)</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>7</td>
+                <td>(662, 147)</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>8</td>
+                <td>(662, 150)</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>GB[3] </td>
+                <td>(437, 108)</td>
+                <td>NAND_FLASH_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIBFPE/U0_YWn_GEast</td>
+                <td>20</td>
+                <td>1</td>
+                <td>(662, 153)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(662, 156)</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>GB[5] </td>
+                <td>(439, 108)</td>
+                <td>NAND_FLASH_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_YWn_GEast</td>
+                <td>15</td>
+                <td>1</td>
+                <td>(662, 159)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(663, 153)</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>3</td>
+                <td>(663, 156)</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>GB[2] </td>
+                <td>(436, 108)</td>
+                <td>NAND_FLASH_sb_0/CORERESETP_0/sdif0_areset_n_RNIU0L4/U0_YWn_GEast</td>
+                <td>12</td>
+                <td>1</td>
+                <td>(662, 138)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td/>
+                <td>2</td>
+                <td>(664, 156)</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <p/>
+    </body>
+</html>

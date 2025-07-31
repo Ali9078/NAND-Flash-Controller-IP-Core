@@ -1,0 +1,15 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,uSRAM 1K,LSRAM 18K,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,Multi-Mode UART,RCOSC_50MHZ
+NAND_FLASH_sb_0/CCC_0/Primitives,0,0,0,0,0,0,0,1,1,0,0,0,0
+NAND_FLASH_sb_0/CORERESETP_0/Primitives,9,46,0,0,0,0,0,0,2,0,0,0,0
+NAND_FLASH_sb_0/CoreAPB3_C0_0/CoreAPB3_C0_0/Primitives,2,0,0,0,0,0,0,0,0,0,0,0,0
+NAND_FLASH_sb_0/FABOSC_0/Primitives,0,0,0,0,0,0,0,0,1,0,0,0,1
+NAND_FLASH_sb_0/NAND_FLASH_sb_MSS_0/Primitives,9,0,0,0,2,0,0,0,0,1,0,0,0
+NAND_FLASH_sb_0/Primitives,1,0,0,0,0,0,0,0,1,0,0,0,0
+NAND_FLASH_sb_0/nand_apb_wrapper_0/Primitives,177,88,0,0,0,0,0,0,0,0,0,0,0
+NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/AAL/Primitives,126,42,0,0,0,0,0,0,0,0,0,0,0
+NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/ACL/Primitives,119,44,0,0,0,0,0,0,0,0,0,0,0
+NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/IO_RD/Primitives,752,44,0,0,0,0,0,0,0,0,0,0,0
+NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/IO_WR/Primitives,96,47,0,0,0,0,0,0,0,0,0,0,0
+NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/Primitives,505,380,396,396,0,3,8,0,0,0,0,0,0
+Primitives/Primitives,1,0,0,0,17,0,0,0,0,0,0,0,0

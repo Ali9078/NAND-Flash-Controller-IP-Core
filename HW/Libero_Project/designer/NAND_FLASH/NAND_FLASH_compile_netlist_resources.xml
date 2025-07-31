@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Resource Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2023.1 (Version 2023.1.0.6)</text>
+<text>Date: Thu Jul 31 15:50:24 2025
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>M2S050</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>484 FBGA</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+<row>
+ <cell>Temp</cell>
+ <cell>-40:25:100</cell>
+</row>
+<row>
+ <cell>Voltage</cell>
+ <cell>1.26:1.20:1.14</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.2V</cell>
+</row>
+<row>
+ <cell>Ramp Rate</cell>
+ <cell>100ms Minimum</cell>
+</row>
+<row>
+ <cell>System Controller Suspend Mode</cell>
+ <cell>No</cell>
+</row>
+<row>
+ <cell>PLL Supply Voltage</cell>
+ <cell>2.5V</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 3.3V</cell>
+</row>
+<row>
+ <cell>Restrict Probe Pins</cell>
+ <cell>Yes</cell>
+</row>
+<row>
+ <cell>Restrict SPI Pins</cell>
+ <cell>No</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>NAND_FLASH</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\NAND_FLASH.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Enable Single Event Transient mitigation</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Enable Design Separation Methodology</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>2193</cell>
+ <cell>56340</cell>
+ <cell>3.89</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>1087</cell>
+ <cell>56340</cell>
+ <cell>1.93</cell>
+</row>
+<row>
+ <cell>I/O Register</cell>
+ <cell>0</cell>
+ <cell>801</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>19</cell>
+ <cell>267</cell>
+ <cell>7.12</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>19</cell>
+ <cell>267</cell>
+ <cell>7.12</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>133</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>RAM64x18</cell>
+ <cell>3</cell>
+ <cell>72</cell>
+ <cell>4.17</cell>
+</row>
+<row>
+ <cell>RAM1K18</cell>
+ <cell>8</cell>
+ <cell>69</cell>
+ <cell>11.59</cell>
+</row>
+<row>
+ <cell>MACC</cell>
+ <cell>0</cell>
+ <cell>72</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Chip Globals</cell>
+ <cell>5</cell>
+ <cell>16</cell>
+ <cell>31.25</cell>
+</row>
+<row>
+ <cell>CCC</cell>
+ <cell>1</cell>
+ <cell>6</cell>
+ <cell>16.67</cell>
+</row>
+<row>
+ <cell>RCOSC_25_50MHZ</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>RCOSC_1MHZ</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>XTLOSC</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>MSS</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>1797</cell>
+ <cell>691</cell>
+</row>
+<row>
+ <cell>RAM64x18 Interface Logic</cell>
+ <cell>108</cell>
+ <cell>108</cell>
+</row>
+<row>
+ <cell>RAM1K18 Interface Logic</cell>
+ <cell>288</cell>
+ <cell>288</cell>
+</row>
+<row>
+ <cell>MACC Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>2193</cell>
+ <cell>1087</cell>
+</row>
+</table>
+<section><name>MSS Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Cortex-M3*</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>eNVM (256KB)*</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>eSRAM*</cell>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>TIMER*</cell>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>CAN</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>SPI</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>I2C</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>UART</cell>
+ <cell>1</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>USB</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>MAC</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>MDDR</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>HPDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>PDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text>* These resources are always marked as used when you are using the MSS</text>
+<text></text>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>13</cell>
+</row>
+<row>
+ <cell>27</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell>28</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>33</cell>
+ <cell>6</cell>
+</row>
+<row>
+ <cell>63</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>28</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>3</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>8</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>8</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>I/O Technology</name></section>
+<table>
+<header>
+ <cell>I/O Standard</cell>
+ <cell>Vddi</cell>
+ <cell>Vref</cell>
+ <cell>Input</cell>
+ <cell>Output</cell>
+ <cell>Bidirectional</cell>
+</header>
+<row>
+ <cell>LVCMOS33</cell>
+ <cell> 3.30v</cell>
+ <cell> N/A</cell>
+ <cell> 3</cell>
+ <cell> 8</cell>
+ <cell> 8</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>702</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/GL0_INST</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/CCC_0/GL0_INST/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>208</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/AND2_0_Y_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/AND2_0_RNIJKQB/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>20</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/CORERESETP_0/sm0_areset_n_clk_base_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIBFPE/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>15</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/FABOSC_0_RCOSC_25_50MHZ_O2F</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/CORERESETP_0/sm0_areset_n_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/CORERESETP_0/sdif0_areset_n_RNIU0L4/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>63</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate_Z[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate[0]</cell>
+</row>
+<row>
+ <cell>57</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/state_Z[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/state[1]</cell>
+</row>
+<row>
+ <cell>57</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/tmp_int39_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/tmp_int39</cell>
+</row>
+<row>
+ <cell>53</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate_Z[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate[1]</cell>
+</row>
+<row>
+ <cell>53</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/un1_substate_0_sqmuxa_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/un1_substate_0_sqmuxa</cell>
+</row>
+<row>
+ <cell>52</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx_1[1]</cell>
+</row>
+<row>
+ <cell>48</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/N_1560_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/IO_RD/state_ns_1_0_.status_0_sqmuxa_1_RNI3ORB</cell>
+</row>
+<row>
+ <cell>44</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx_1[0]</cell>
+</row>
+<row>
+ <cell>41</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate_Z[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate[2]</cell>
+</row>
+<row>
+ <cell>39</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/VeRRptcNt0_0_sqmuxa_0_a2_iso</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/_capp.VeRRptcNt0_0_sqmuxa_0_a2_iso</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>63</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate_Z[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate[0]</cell>
+</row>
+<row>
+ <cell>57</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/state_Z[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/state[1]</cell>
+</row>
+<row>
+ <cell>57</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/tmp_int39_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/tmp_int39</cell>
+</row>
+<row>
+ <cell>53</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate_Z[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate[1]</cell>
+</row>
+<row>
+ <cell>53</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/un1_substate_0_sqmuxa_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/un1_substate_0_sqmuxa</cell>
+</row>
+<row>
+ <cell>52</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx_1[1]</cell>
+</row>
+<row>
+ <cell>48</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/N_1560_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/IO_RD/state_ns_1_0_.status_0_sqmuxa_1_RNI3ORB</cell>
+</row>
+<row>
+ <cell>44</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/page_idx_1[0]</cell>
+</row>
+<row>
+ <cell>41</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate_Z[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/u_nand_master/substate[2]</cell>
+</row>
+<row>
+ <cell>39</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NAND_FLASH_sb_0/nand_apb_wrapper_0/VeRRptcNt0_0_sqmuxa_0_a2_iso</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: NAND_FLASH_sb_0/nand_apb_wrapper_0/_capp.VeRRptcNt0_0_sqmuxa_0_a2_iso</cell>
+</row>
+</table>
+</doc>

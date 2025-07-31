@@ -1,0 +1,28 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       5 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     4 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    702    0      0      'NAND_FLASH_sb_0/CCC_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    15     0      0      'NAND_FLASH_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
+    0      208    0      'NAND_FLASH_sb_0/AND2_0_RNIJKQB' 
+    0      20     0      'NAND_FLASH_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIBFPE' 
+    0      12     0      'NAND_FLASH_sb_0/CORERESETP_0/sdif0_areset_n_RNIU0L4' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

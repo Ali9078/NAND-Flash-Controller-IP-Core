@@ -1,0 +1,112 @@
+#--  Synopsys, Inc.
+#--  Version T-2022.09M-SP2
+#--  Project file C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\scratchproject.prs
+
+#project files
+add_file -include "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/hdl/onfi_package.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/CoreAPB3_C0/CoreAPB3_C0.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb/CCC_0/NAND_FLASH_sb_CCC_0_FCCC.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb/FABOSC_0/NAND_FLASH_sb_FABOSC_0_OSC.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS/NAND_FLASH_sb_MSS_syn.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS/NAND_FLASH_sb_MSS.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/hdl/io_unit.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/hdl/latch_unit.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/hdl/nand_master.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/hdl/nand_apb_wrapper.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb/NAND_FLASH_sb.v"
+add_file -verilog "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH/NAND_FLASH.v"
+add_file -fpga_constraint "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/designer/NAND_FLASH/synthesis.fdc"
+
+
+#implementation: "synthesis"
+impl -add C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+
+#device options
+set_option -technology SmartFusion2
+set_option -part M2S050
+set_option -package VF400
+set_option -speed_grade STD
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "NAND_FLASH"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -scm2hydra 0
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency 100.000
+set_option -resolve_multiple_driver 1
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_structural_verilog 0
+set_option -write_vhdl 0
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microchip G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 12
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -seqshift_to_uram 0
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 0
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+set_option -disable_ramindex 0
+set_option -rep_clkint_driver 1
+set_option -microsemi_enhanced_flow 1
+set_option -ternary_adder_decomp 66
+set_option -async_clkint_removal 0
+
+# Microchip SmartFusion2
+set_option -report_preserve_cdc 1
+set_option -min_cdc_sync_flops 2
+set_option -unsafe_cdc_netlist_property 0
+set_option -pack_uram_addr_reg 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# flow_options
+set_option -use_unified_compile 0
+set_option -use_module_idb 1
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/synthesis/NAND_FLASH.vm"
+impl -active "synthesis"

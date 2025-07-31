@@ -1,0 +1,54 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance state[10] (in view: work.nand_master(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: MO230 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Found up-down counter in view:work.nand_master(verilog) instance byte_count[31:0]  
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Found counter in view:work.nand_master(verilog) instance delay[27:0] 
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Found counter in view:work.latch_unit_0s_0_1_2_3_4(verilog) instance delay[26:0] 
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Found counter in view:work.latch_unit_1s_0_1_2_3_4(verilog) instance delay[26:0] 
+@N: MO225 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|There are no possible illegal states for state machine state[3:0] (in view: work.io_unit_1s_0_1_2_3(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Found counter in view:work.io_unit_1s_0_1_2_3(verilog) instance delay[26:0] 
+@N: MO225 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|There are no possible illegal states for state machine state[3:0] (in view: work.io_unit_0s_0_1_2_3(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Found counter in view:work.io_unit_0s_0_1_2_3(verilog) instance delay[26:0] 
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[8] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[9] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[10] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[11] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[12] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[13] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[14] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[15] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[8] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[9] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[10] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[11] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[12] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[13] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[14] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[15] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":111:24:111:24|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0._capp\.VeRRptcNt0_0_sqmuxa_0_a2 (in view: work.NAND_FLASH(verilog)) with 53 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.init_complete (in view: work.NAND_FLASH(verilog)) with 14 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.init_complete (in view: work.NAND_FLASH(verilog)) with 12 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.state[1] (in view: work.NAND_FLASH(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.state[1] (in view: work.NAND_FLASH(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.state[1] (in view: work.NAND_FLASH(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.state[0] (in view: work.NAND_FLASH(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.n_state[1] (in view: work.NAND_FLASH(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":79:4:79:9|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.apb_start (in view: work.NAND_FLASH(verilog)) with 45 loads 2 times to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.substate[3] (in view: work.NAND_FLASH(verilog)) with 46 loads 2 times to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_RD.state_ns_1_0_.un1_byte_count_1_sqmuxa_i (in view: work.NAND_FLASH(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.init_complete (in view: work.NAND_FLASH(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.n_state[1] (in view: work.NAND_FLASH(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.n_state[0] (in view: work.NAND_FLASH(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.state[3] (in view: work.NAND_FLASH(verilog)) with 5 loads 1 time to improve timing.
+@N: FP130 |Promoting Net NAND_FLASH_sb_0.AND2_0_Y_arst on CLKINT  I_316 
+@N: FP130 |Promoting Net NAND_FLASH_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_317 
+@N: FP130 |Promoting Net NAND_FLASH_sb_0.CORERESETP_0.sm0_areset_n_arst on CLKINT  I_318 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

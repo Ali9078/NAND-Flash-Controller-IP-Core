@@ -1,0 +1,77 @@
+Synplify Pro (R) Job Log
+Date: 15:50:19    31-Jul-2025
+Install Directory: C:\Microchip\Libero_SoC_v2023.1\SynplifyPro
+
+JobFlow: synthesis
+   Run Start Time: 15:49:55
+   Runtime: 24s
+   Executable Run Time: 23 - (Sum of all child executables)
+   Current Working Directory: C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis
+
+   JobFlow: synthesis
+      Run Start Time: 15:49:55
+      Runtime: 24s
+      Executable Run Time: 23 - (Sum of all child executables)
+
+      JobFlow: compile
+         Run Start Time: 15:49:55
+         Runtime: 17s
+         Executable Run Time: 16 - (Sum of all child executables)
+
+         JobFlow: compile_flow
+            Run Start Time: 15:49:55
+            Runtime: 13s
+            Executable Run Time: 12 - (Sum of all child executables)
+
+            Job: compiler
+               executable: bin64\c_hdl.exe
+               Run Directory: C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/synthesis
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 15:49:55
+               Run Time: 13s
+               Executable Run Time: 12 - (Executable run time excluding UI processing)
+               Memory Usage: -
+               Up-to-date (run skipped): no
+
+            Job: multi_srs_gen
+               executable: bin64\syn_nfilter.exe
+               Run Directory: C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/synthesis
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 15:50:08
+               Run Time: 00s
+               Executable Run Time: 0 - (Executable run time excluding UI processing)
+               Memory Usage: -
+               Up-to-date (run skipped): no
+
+         Job: premap
+            executable: bin64\m_generic.exe
+            Run Directory: C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/synthesis
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 15:50:08
+            Run Time: 04s
+            Executable Run Time: 4 - (Executable run time excluding UI processing)
+            Memory Usage: -
+            Up-to-date (run skipped): no
+
+      JobFlow: map
+         Run Start Time: 15:50:12
+         Runtime: 07s
+         Executable Run Time: 7 - (Sum of all child executables)
+
+         Job: fpga_mapper
+            executable: bin64\m_generic.exe
+            Run Directory: C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/synthesis
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 15:50:12
+            Run Time: 07s
+            Executable Run Time: 7 - (Executable run time excluding UI processing)
+            Memory Usage: -
+            Up-to-date (run skipped): no

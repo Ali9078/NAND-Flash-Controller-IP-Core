@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  NAND_FLASH  -multisrs  C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\synwork\NAND_FLASH_comp.srs  -osyn  C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\synwork\NAND_FLASH_mult.srs  -log  C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\synlog\NAND_FLASH_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\Microchip\Libero_SoC_v2023.1\SynplifyPro\bin64\syn_nfilter.exe -link -top NAND_FLASH -multisrs ..\synwork\NAND_FLASH_comp.srs -osyn ..\synwork\NAND_FLASH_mult.srs -log ..\synlog\NAND_FLASH_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\NAND_FLASH_comp.srs|io:i|time:1753957207|size:134829|exec:0|csum:42258B7A5CFB2DE83ED9800ACEF6C509
+file:..\synwork\NAND_FLASH_mult.srs|io:o|time:1753957208|size:2889|exec:0|csum:
+file:..\synlog\NAND_FLASH_multi_srs_gen.srr|io:o|time:1753957208|size:1172|exec:0|csum:
+file:..\..\..\..\..\..\..\Microchip\Libero_SoC_v2023.1\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1679051022|size:10452480|exec:1|csum:A770B913F6CDB978B199579E58FDD8FE

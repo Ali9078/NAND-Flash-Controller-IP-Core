@@ -1,0 +1,1777 @@
+#Build: Synplify Pro (R) T-2022.09M-SP2, Build 096R, Mar  8 2023
+#install: C:\Microchip\Libero_SoC_v2023.1\SynplifyPro
+#OS: Windows 10 or later
+#Hostname: DESKTOP-KS8LRTD
+
+# Thu Jul 31 15:24:20 2025
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: C:\Microchip\Libero_SoC_v2023.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-KS8LRTD
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202209synp2, Build 096R, Built Mar  8 2023 09:13:24, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: C:\Microchip\Libero_SoC_v2023.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-KS8LRTD
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202209synp2, Build 096R, Built Mar  8 2023 09:13:24, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" (library COREAPB3_LIB)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\CoreAPB3_C0\CoreAPB3_C0.v" (library work)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" (library work)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" (library work)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\CCC_0\NAND_FLASH_sb_CCC_0_FCCC.v" (library work)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" (library work)
+@W: CG100 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":4:13:4:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":14:13:14:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":27:13:27:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":43:13:43:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":55:13:55:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":67:13:67:25|User defined pragma syn_black_box detected
+
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\FABOSC_0\NAND_FLASH_sb_FABOSC_0_OSC.v" (library work)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb_MSS\NAND_FLASH_sb_MSS_syn.v" (library work)
+@W: CG100 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb_MSS\NAND_FLASH_sb_MSS_syn.v":650:13:650:25|User defined pragma syn_black_box detected
+
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb_MSS\NAND_FLASH_sb_MSS.v" (library work)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v" (library work)
+@I:"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\onfi_package.v" (library work)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v" (library work)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v" (library work)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_apb_wrapper.v" (library work)
+@W: CG1337 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_apb_wrapper.v":52:11:52:17|Net led_out is not declared.
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\NAND_FLASH_sb.v" (library work)
+@I::"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH\NAND_FLASH.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\onfi_package.v":4:0:4:8|Synthesizing module work_C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v_unit in library work.
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\onfi_package.v":4:0:4:8|Synthesizing module work_C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v_unit in library work.
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\onfi_package.v":4:0:4:8|Synthesizing module work_C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v_unit in library work.
+Selecting top level module NAND_FLASH
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\generic\smartfusion2.v":126:7:126:10|Synthesizing module AND2 in library work.
+Running optimization stage 1 on AND2 .......
+Finished optimization stage 1 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
+Running optimization stage 1 on CCC .......
+Finished optimization stage 1 on CCC (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\CCC_0\NAND_FLASH_sb_CCC_0_FCCC.v":5:7:5:30|Synthesizing module NAND_FLASH_sb_CCC_0_FCCC in library work.
+Running optimization stage 1 on NAND_FLASH_sb_CCC_0_FCCC .......
+Finished optimization stage 1 on NAND_FLASH_sb_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CG775 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+Running optimization stage 1 on COREAPB3_MUXPTOB3 .......
+Finished optimization stage 1 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b0
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b010000
+	UPR_NIBBLE_POSN=4'b0110
+	FAMILY=32'b00000000000000000000000000010011
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IADDR_NOTINUSE=32'b00000000000000000000000000000000
+	IADDR_EXTERNAL=32'b00000000000000000000000000000001
+	IADDR_SLOT0=32'b00000000000000000000000000000010
+	IADDR_SLOT1=32'b00000000000000000000000000000011
+	IADDR_SLOT2=32'b00000000000000000000000000000100
+	IADDR_SLOT3=32'b00000000000000000000000000000101
+	IADDR_SLOT4=32'b00000000000000000000000000000110
+	IADDR_SLOT5=32'b00000000000000000000000000000111
+	IADDR_SLOT6=32'b00000000000000000000000000001000
+	IADDR_SLOT7=32'b00000000000000000000000000001001
+	IADDR_SLOT8=32'b00000000000000000000000000001010
+	IADDR_SLOT9=32'b00000000000000000000000000001011
+	IADDR_SLOT10=32'b00000000000000000000000000001100
+	IADDR_SLOT11=32'b00000000000000000000000000001101
+	IADDR_SLOT12=32'b00000000000000000000000000001110
+	IADDR_SLOT13=32'b00000000000000000000000000001111
+	IADDR_SLOT14=32'b00000000000000000000000000010000
+	IADDR_SLOT15=32'b00000000000000000000000000010001
+	SL0=16'b0000000000000001
+	SL1=16'b0000000000000000
+	SL2=16'b0000000000000000
+	SL3=16'b0000000000000000
+	SL4=16'b0000000000000000
+	SL5=16'b0000000000000000
+	SL6=16'b0000000000000000
+	SL7=16'b0000000000000000
+	SL8=16'b0000000000000000
+	SL9=16'b0000000000000000
+	SL10=16'b0000000000000000
+	SL11=16'b0000000000000000
+	SL12=16'b0000000000000000
+	SL13=16'b0000000000000000
+	SL14=16'b0000000000000000
+	SL15=16'b0000000000000000
+	SC=16'b0000000000000000
+	SC_qual=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+@W: CG360 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
+Running optimization stage 1 on CoreAPB3_Z1 .......
+Finished optimization stage 1 on CoreAPB3_Z1 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\CoreAPB3_C0\CoreAPB3_C0.v":57:7:57:17|Synthesizing module CoreAPB3_C0 in library work.
+Running optimization stage 1 on CoreAPB3_C0 .......
+Finished optimization stage 1 on CoreAPB3_C0 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP in library work.
+
+	FAMILY=32'b00000000000000000000000000010011
+	EXT_RESET_CFG=32'b00000000000000000000000000000000
+	DEVICE_VOLTAGE=32'b00000000000000000000000000000010
+	MDDR_IN_USE=32'b00000000000000000000000000000000
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000000
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	SDIF0_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF1_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF2_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF3_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF0_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF1_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF2_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF3_PCIE_L2P2=32'b00000000000000000000000000000001
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000000
+	DEVICE_090=32'b00000000000000000000000000000000
+	DDR_WAIT=32'b00000000000000000000000011001000
+	RCOSC_MEGAHERTZ=32'b00000000000000000000000000110010
+	SDIF_INTERVAL=32'b00000000000000000001100101100100
+	DDR_INTERVAL=32'b00000000000000000010011100010000
+	COUNT_WIDTH_SDIF=32'b00000000000000000000000000001101
+	COUNT_WIDTH_DDR=32'b00000000000000000000000000001110
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+   Generated name = CoreResetP_Z2
+Running optimization stage 1 on CoreResetP_Z2 .......
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Pruning unused register count_ddr[13:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning unused register count_sdif3[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning unused register count_sdif2[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning unused register count_sdif1[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Pruning unused register count_sdif0[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning unused register count_sdif3_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning unused register count_sdif2_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning unused register count_sdif1_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Pruning unused register count_sdif0_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register count_ddr_enable. Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int and merging RESET_N_F2M_int. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register sm2_state[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on CoreResetP_Z2 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
+Running optimization stage 1 on RCOSC_25_50MHZ_FAB .......
+Finished optimization stage 1 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
+Running optimization stage 1 on RCOSC_25_50MHZ .......
+Finished optimization stage 1 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\FABOSC_0\NAND_FLASH_sb_FABOSC_0_OSC.v":5:7:5:32|Synthesizing module NAND_FLASH_sb_FABOSC_0_OSC in library work.
+Running optimization stage 1 on NAND_FLASH_sb_FABOSC_0_OSC .......
+@W: CL318 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\FABOSC_0\NAND_FLASH_sb_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\FABOSC_0\NAND_FLASH_sb_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\FABOSC_0\NAND_FLASH_sb_FABOSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\FABOSC_0\NAND_FLASH_sb_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on NAND_FLASH_sb_FABOSC_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@W: CG168 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":75:42:75:44|Type of parameter latch_type on the instance ACL is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":5:7:5:16|Synthesizing module latch_unit in library work.
+
+	latch_type=32'b00000000000000000000000000000000
+	LATCH_INIT=3'b000
+	LATCH_IDLE=3'b001
+	LATCH_HOLD=3'b010
+	LATCH_WAIT=3'b011
+	LATCH_DELAY=3'b100
+   Generated name = latch_unit_0s_0_1_2_3_4
+Running optimization stage 1 on latch_unit_0s_0_1_2_3_4 .......
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Optimizing register bit n_state[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Pruning register bit 2 of n_state[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on latch_unit_0s_0_1_2_3_4 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+@W: CG168 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":80:43:80:45|Type of parameter latch_type on the instance AAL is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":5:7:5:16|Synthesizing module latch_unit in library work.
+
+	latch_type=32'b00000000000000000000000000000001
+	LATCH_INIT=3'b000
+	LATCH_IDLE=3'b001
+	LATCH_HOLD=3'b010
+	LATCH_WAIT=3'b011
+	LATCH_DELAY=3'b100
+   Generated name = latch_unit_1s_0_1_2_3_4
+Running optimization stage 1 on latch_unit_1s_0_1_2_3_4 .......
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Optimizing register bit n_state[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Pruning register bit 2 of n_state[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on latch_unit_1s_0_1_2_3_4 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+@W: CG168 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":85:35:85:39|Type of parameter io_type on the instance IO_WR is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":4:7:4:13|Synthesizing module io_unit in library work.
+
+	io_type=32'b00000000000000000000000000000001
+	IO_INIT=3'b000
+	IO_IDLE=3'b001
+	IO_HOLD=3'b010
+	IO_DELAY=3'b011
+   Generated name = io_unit_1s_0_1_2_3
+Running optimization stage 1 on io_unit_1s_0_1_2_3 .......
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Optimizing register bit n_state[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Pruning register bit 2 of n_state[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on io_unit_1s_0_1_2_3 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+@W: CG168 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Type of parameter io_type on the instance IO_RD is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":4:7:4:13|Synthesizing module io_unit in library work.
+
+	io_type=32'b00000000000000000000000000000000
+	IO_INIT=3'b000
+	IO_IDLE=3'b001
+	IO_HOLD=3'b010
+	IO_DELAY=3'b011
+   Generated name = io_unit_0s_0_1_2_3
+Running optimization stage 1 on io_unit_0s_0_1_2_3 .......
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Optimizing register bit n_state[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Pruning register bit 2 of n_state[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on io_unit_0s_0_1_2_3 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":4:7:4:17|Synthesizing module nand_master in library work.
+Running optimization stage 1 on nand_master .......
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Pruning unused register tmp_int[31:0]. Make sure that there are no unused intermediate registers.
+@N: CL134 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Found RAM page_data, depth=8640, width=8
+@N: CL134 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Found RAM page_param, depth=256, width=8
+@N: CL134 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Found RAM chip_id, depth=5, width=8
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_255_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_254_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_253_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_252_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_251_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_250_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_249_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_248_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_247_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_246_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_245_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_244_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_243_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_242_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_241_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_240_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_239_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_238_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_237_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_236_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_235_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_234_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_233_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_232_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_231_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_230_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_229_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_228_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_227_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_226_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_225_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_224_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_223_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_222_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_221_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_220_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_219_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_218_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_217_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_216_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_215_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_214_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_213_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_212_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_211_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_210_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_209_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_208_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_207_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_206_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_205_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_204_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_203_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_202_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_201_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_200_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_199_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_198_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_197_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_196_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_195_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_194_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_193_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_192_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_191_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_190_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_189_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_188_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_187_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_186_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_185_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_184_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_183_[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused register page_param_182_[7:0]. Make sure that there are no unused intermediate registers.
+
+Only the first 100 messages of id 'CL169' are reported. To see all messages use 'report_messages -log C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\synlog\NAND_FLASH_compiler.srr -id CL169' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL169} -count unlimited' in the Tcl shell.
+@W: CL271 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":90:34:90:38|Pruning unused bits 7 to 1 of page_param_5_[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal substate[3:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal status[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal page_idx[31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal oob_bytes_per_page[31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal nand_nwp. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal nand_nce2. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal nand_nce. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal n_state[5:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal io_wr_data_in[15:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal delay[31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal data_out[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal data_bytes_per_page[31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal current_address[4][7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal current_address[3][7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal current_address[2][7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal current_address[1][7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal current_address[0][7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal cle_data_in[15:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal byte_count[31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal ale_data_in[15:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Feedback mux created for signal addr_cycles[31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit ale_data_in[8] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit ale_data_in[9] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit ale_data_in[10] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit ale_data_in[11] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit ale_data_in[12] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit ale_data_in[13] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit ale_data_in[14] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit ale_data_in[15] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit cle_data_in[8] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit cle_data_in[9] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit cle_data_in[10] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit cle_data_in[11] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit cle_data_in[12] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit cle_data_in[13] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit cle_data_in[14] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit cle_data_in[15] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit n_state[5] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[16] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[17] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[18] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[19] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[20] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[21] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[22] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[23] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[24] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[25] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[26] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[27] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[28] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[29] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[30] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit oob_bytes_per_page[31] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit status[5] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit status[6] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit status[7] is always 0.
+@W: CL279 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Pruning register bits 7 to 5 of status[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Pruning register bit 5 of n_state[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Pruning register bits 15 to 8 of cle_data_in[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Pruning register bits 15 to 8 of ale_data_in[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Pruning register bits 31 to 16 of oob_bytes_per_page[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on nand_master (CPU Time 0h:00m:00s, Memory Used current: 119MB peak: 121MB)
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_apb_wrapper.v":1:7:1:22|Synthesizing module nand_apb_wrapper in library work.
+@W: CG215 :"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\generic\smartfusion2.v":0:0:0:0|Unrecognized attribute .repeat_statement on loop statement
+@W: CG215 :"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\generic\smartfusion2.v":0:0:0:0|Unrecognized attribute .repeat_statement on loop statement
+Running optimization stage 1 on nand_apb_wrapper .......
+Finished optimization stage 1 on nand_apb_wrapper (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 121MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF in library work.
+Running optimization stage 1 on INBUF .......
+Finished optimization stage 1 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 121MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF in library work.
+Running optimization stage 1 on TRIBUFF .......
+Finished optimization stage 1 on TRIBUFF (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 121MB)
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb_MSS\NAND_FLASH_sb_MSS_syn.v":5:7:5:13|Synthesizing module MSS_050 in library work.
+Running optimization stage 1 on MSS_050 .......
+Finished optimization stage 1 on MSS_050 (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 121MB)
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb_MSS\NAND_FLASH_sb_MSS.v":9:7:9:23|Synthesizing module NAND_FLASH_sb_MSS in library work.
+Running optimization stage 1 on NAND_FLASH_sb_MSS .......
+Finished optimization stage 1 on NAND_FLASH_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 121MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.1\SynplifyPro\lib\generic\smartfusion2.v":720:7:720:14|Synthesizing module SYSRESET in library work.
+Running optimization stage 1 on SYSRESET .......
+Finished optimization stage 1 on SYSRESET (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 121MB)
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\NAND_FLASH_sb.v":9:7:9:19|Synthesizing module NAND_FLASH_sb in library work.
+Running optimization stage 1 on NAND_FLASH_sb .......
+Finished optimization stage 1 on NAND_FLASH_sb (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 121MB)
+@N: CG364 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH\NAND_FLASH.v":9:7:9:16|Synthesizing module NAND_FLASH in library work.
+Running optimization stage 1 on NAND_FLASH .......
+Finished optimization stage 1 on NAND_FLASH (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 121MB)
+Running optimization stage 2 on NAND_FLASH .......
+Finished optimization stage 2 on NAND_FLASH (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 121MB)
+Running optimization stage 2 on NAND_FLASH_sb .......
+Finished optimization stage 2 on NAND_FLASH_sb (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 121MB)
+Running optimization stage 2 on SYSRESET .......
+Finished optimization stage 2 on SYSRESET (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 121MB)
+Running optimization stage 2 on NAND_FLASH_sb_MSS .......
+Finished optimization stage 2 on NAND_FLASH_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 121MB)
+Running optimization stage 2 on MSS_050 .......
+Finished optimization stage 2 on MSS_050 (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 121MB)
+Running optimization stage 2 on TRIBUFF .......
+Finished optimization stage 2 on TRIBUFF (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 121MB)
+Running optimization stage 2 on INBUF .......
+Finished optimization stage 2 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 121MB)
+Running optimization stage 2 on nand_apb_wrapper .......
+@N: CL201 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_apb_wrapper.v":66:4:66:9|Trying to extract state machine for register NoName.
+Extracted state machine for register NoName
+State machine has 3 reachable states with original encodings of:
+   001
+   010
+   100
+@W: CL246 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_apb_wrapper.v":6:23:6:27|Input port bits 15 to 4 of PADDR[15:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_apb_wrapper.v":10:23:10:28|Input port bits 31 to 8 of PWDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on nand_apb_wrapper (CPU Time 0h:00m:00s, Memory Used current: 112MB peak: 121MB)
+Running optimization stage 2 on nand_master .......
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[5] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[6] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[7] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[8] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[9] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[10] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[11] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[12] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[13] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[14] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[15] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[16] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[17] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[18] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[19] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[20] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[21] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[22] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[23] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[24] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[25] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[26] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[27] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[28] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[29] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[30] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit addr_cycles[31] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit delay[30] is always 0.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit delay[31] is always 0.
+@W: CL279 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Pruning register bits 31 to 30 of delay[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Pruning register bits 31 to 5 of addr_cycles[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit delay[29] is always 0.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Pruning register bit 29 of delay[29:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Register bit delay[28] is always 0.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Pruning register bit 28 of delay[28:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Trying to extract state machine for register substate.
+@N: CL201 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 32 reachable states with original encodings of:
+   000000
+   000001
+   000010
+   000011
+   000100
+   000101
+   000110
+   000111
+   001000
+   001001
+   001010
+   001011
+   001100
+   001101
+   001110
+   001111
+   010000
+   010001
+   010010
+   010011
+   010100
+   010101
+   010110
+   010111
+   011000
+   011001
+   011010
+   011011
+   011100
+   011101
+   011110
+   011111
+@W: CL249 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\nand_master.v":138:4:138:9|Initial value is not supported on state machine state
+Finished optimization stage 2 on nand_master (CPU Time 0h:00m:07s, Memory Used current: 117MB peak: 5264MB)
+Running optimization stage 2 on io_unit_0s_0_1_2_3 .......
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Optimizing register bit delay[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Optimizing register bit delay[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Pruning register bits 31 to 30 of delay[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Optimizing register bit delay[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Pruning register bit 29 of delay[29:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Optimizing register bit delay[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Pruning register bit 28 of delay[28:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@W: CL249 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Initial value is not supported on state machine state
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Optimizing register bit delay[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Pruning register bit 27 of delay[27:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 2 on io_unit_0s_0_1_2_3 (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 5264MB)
+Running optimization stage 2 on io_unit_1s_0_1_2_3 .......
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Optimizing register bit delay[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Optimizing register bit delay[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Pruning register bits 31 to 30 of delay[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Optimizing register bit delay[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Pruning register bit 29 of delay[29:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Optimizing register bit delay[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Pruning register bit 28 of delay[28:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@W: CL249 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Initial value is not supported on state machine state
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Optimizing register bit delay[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\io_unit.v":36:0:36:5|Pruning register bit 27 of delay[27:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 2 on io_unit_1s_0_1_2_3 (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 5264MB)
+Running optimization stage 2 on latch_unit_1s_0_1_2_3_4 .......
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Optimizing register bit delay[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Optimizing register bit delay[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Pruning register bits 31 to 30 of delay[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Optimizing register bit delay[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Pruning register bit 29 of delay[29:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Optimizing register bit delay[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Pruning register bit 28 of delay[28:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL249 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Initial value is not supported on state machine state
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Optimizing register bit delay[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Pruning register bit 27 of delay[27:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 2 on latch_unit_1s_0_1_2_3_4 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 5264MB)
+Running optimization stage 2 on latch_unit_0s_0_1_2_3_4 .......
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Optimizing register bit delay[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Optimizing register bit delay[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Pruning register bits 31 to 30 of delay[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Optimizing register bit delay[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Pruning register bit 29 of delay[29:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Optimizing register bit delay[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Pruning register bit 28 of delay[28:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL249 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Initial value is not supported on state machine state
+@W: CL190 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Optimizing register bit delay[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\hdl\latch_unit.v":40:0:40:5|Pruning register bit 27 of delay[27:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 2 on latch_unit_0s_0_1_2_3_4 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 5264MB)
+Running optimization stage 2 on NAND_FLASH_sb_FABOSC_0_OSC .......
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\work\NAND_FLASH_sb\FABOSC_0\NAND_FLASH_sb_FABOSC_0_OSC.v":14:7:14:9|Input XTL is unused.
+Finished optimization stage 2 on NAND_FLASH_sb_FABOSC_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 5264MB)
+Running optimization stage 2 on RCOSC_25_50MHZ .......
+Finished optimization stage 2 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 5264MB)
+Running optimization stage 2 on RCOSC_25_50MHZ_FAB .......
+Finished optimization stage 2 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 5264MB)
+Running optimization stage 2 on CoreResetP_Z2 .......
+@W: CL177 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state.
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state.
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state.
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state.
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state.
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":59:20:59:34|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":107:20:107:37|Input SOFT_EXT_RESET_OUT is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":108:20:108:33|Input SOFT_RESET_F2M is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":109:20:109:32|Input SOFT_M3_RESET is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":110:20:110:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":111:20:111:39|Input SOFT_FDDR_CORE_RESET is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":112:20:112:39|Input SOFT_SDIF0_PHY_RESET is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":113:20:113:40|Input SOFT_SDIF0_CORE_RESET is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":114:20:114:39|Input SOFT_SDIF1_PHY_RESET is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":115:20:115:40|Input SOFT_SDIF1_CORE_RESET is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":116:20:116:39|Input SOFT_SDIF2_PHY_RESET is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":117:20:117:40|Input SOFT_SDIF2_CORE_RESET is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":118:20:118:39|Input SOFT_SDIF3_PHY_RESET is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":119:20:119:40|Input SOFT_SDIF3_CORE_RESET is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":123:20:123:42|Input SOFT_SDIF0_0_CORE_RESET is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":124:20:124:42|Input SOFT_SDIF0_1_CORE_RESET is unused.
+Finished optimization stage 2 on CoreResetP_Z2 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 5264MB)
+Running optimization stage 2 on CoreAPB3_C0 .......
+Finished optimization stage 2 on CoreAPB3_C0 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 5264MB)
+Running optimization stage 2 on CoreAPB3_Z1 .......
+@W: CL246 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":75:18:75:22|Input port bits 27 to 16 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":105:18:105:25|Input PRDATAS1 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":106:18:106:25|Input PRDATAS2 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":122:13:122:20|Input PREADYS1 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":123:13:123:20|Input PREADYS2 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":139:13:139:21|Input PSLVERRS1 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":140:13:140:21|Input PSLVERRS2 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":141:13:141:21|Input PSLVERRS3 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+Finished optimization stage 2 on CoreAPB3_Z1 (CPU Time 0h:00m:00s, Memory Used current: 118MB peak: 5264MB)
+Running optimization stage 2 on COREAPB3_MUXPTOB3 .......
+Finished optimization stage 2 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 5264MB)
+Running optimization stage 2 on NAND_FLASH_sb_CCC_0_FCCC .......
+Finished optimization stage 2 on NAND_FLASH_sb_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 5264MB)
+Running optimization stage 2 on CCC .......
+Finished optimization stage 2 on CCC (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 5264MB)
+Running optimization stage 2 on CLKINT .......
+Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 5264MB)
+Running optimization stage 2 on GND .......
+Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 5264MB)
+Running optimization stage 2 on VCC .......
+Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 5264MB)
+Running optimization stage 2 on AND2 .......
+Finished optimization stage 2 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 117MB peak: 5264MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 118MB peak: 5264MB)
+
+Process took 0h:00m:13s realtime, 0h:00m:12s cputime
+
+Process completed successfully.
+# Thu Jul 31 15:24:34 2025
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: C:\Microchip\Libero_SoC_v2023.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-KS8LRTD
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202209synp2, Build 096R, Built Mar  8 2023 09:13:24, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 97MB peak: 97MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jul 31 15:24:34 2025
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\synwork\NAND_FLASH_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 24MB peak: 24MB)
+
+Process took 0h:00m:13s realtime, 0h:00m:13s cputime
+
+Process completed successfully.
+# Thu Jul 31 15:24:34 2025
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: C:\Microchip\Libero_SoC_v2023.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-KS8LRTD
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202209synp2, Build 096R, Built Mar  8 2023 09:13:24, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jul 31 15:24:35 2025
+
+###########################################################]
+Premap Report
+
+# Thu Jul 31 15:24:35 2025
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: C:\Microchip\Libero_SoC_v2023.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-KS8LRTD
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202209actsp2, Build 067R, Built Mar  9 2023 04:11:46, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 125MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 139MB)
+
+Reading constraint file: C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\designer\NAND_FLASH\synthesis.fdc
+@L: C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\NAND_FLASH_scck.rpt 
+See clock summary report "C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\NAND_FLASH_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 141MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+NConnInternalConnection caching is on
+@W: BN132 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance NAND_FLASH_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance NAND_FLASH_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.delay[26:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.n_state[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.init_counter[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.init_complete is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.delay[26:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.n_state[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.init_counter[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.init_complete is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.delay[26:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.init_counter[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.n_state[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.data_reg[15:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.init_complete is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_RD.delay[26:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_RD.init_counter[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_RD.n_state[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_RD.data_reg[15:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_RD.init_complete is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.byte_count[31:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.nand_nwp is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.substate[3:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.page_idx[31:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.status[4:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.delay[27:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.nand_nce2 is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.nand_nce is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.n_state[4:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":66:4:66:9|User-specified initial value defined for instance NAND_FLASH_sb_0.nand_apb_wrapper_0.apb_start is being ignored due to limitations in architecture. 
+@N: FX1171 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":66:4:66:9|Found instance NAND_FLASH_sb_0.nand_apb_wrapper_0.PREADY with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":66:4:66:9|Found instance NAND_FLASH_sb_0.nand_apb_wrapper_0.apb_start with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":66:4:66:9|Found instance NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0[31:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":66:4:66:9|Found instance NAND_FLASH_sb_0.nand_apb_wrapper_0.trigger_activate_next_cycle with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 179MB peak: 179MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 179MB peak: 179MB)
+
+@A: BN323 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":98:23:101:31|Bus conflict on tristate un8_nand_data[14] (net nand_data[15] (in view: work.nand_master(verilog)))
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.sm1_areset_n_clk_base is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sequential instance NAND_FLASH_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 179MB peak: 179MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 179MB peak: 180MB)
+
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance sdif0_state[3:0] (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance sdif1_state[3:0] (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance sdif2_state[3:0] (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance sdif3_state[3:0] (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP_Z2(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=69 on top level netlist NAND_FLASH 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 181MB peak: 181MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                            Requested     Requested     Clock        Clock          Clock
+Level     Clock                                                            Frequency     Period        Type         Group          Load 
+----------------------------------------------------------------------------------------------------------------------------------------
+0 -       NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)     720  
+                                                                                                                                        
+0 -       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     15   
+========================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                 Clock     Source                                                               Clock Pin                                                            Non-clock Pin     Non-clock Pin                                                      
+Clock                                                            Load      Pin                                                                  Seq Example                                                          Seq Example       Comb Example                                                       
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock                  720       NAND_FLASH_sb_0.CCC_0.CCC_INST.GL0(CCC)                              NAND_FLASH_sb_0.nand_apb_wrapper_0.trigger_activate_next_cycle.C     -                 NAND_FLASH_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                                          
+NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        NAND_FLASH_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     NAND_FLASH_sb_0.CORERESETP_0.release_sdif0_core.C                    -                 NAND_FLASH_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+==========================================================================================================================================================================================================================================================================================================
+
+@W: MT530 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":565:4:565:9|Found inferred clock NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 720 sequential elements including NAND_FLASH_sb_0.CORERESETP_0.MSS_HPMS_READY_int. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Found inferred clock NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock which controls 15 sequential elements including NAND_FLASH_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\NAND_FLASH.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 180MB peak: 182MB)
+
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z2(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine state[4:0] (in view: work.latch_unit_0s_0_1_2_3_4(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine state[4:0] (in view: work.latch_unit_1s_0_1_2_3_4(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine state[3:0] (in view: work.io_unit_1s_0_1_2_3(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+@N: MO225 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|There are no possible illegal states for state machine state[3:0] (in view: work.io_unit_1s_0_1_2_3(verilog)); safe FSM implementation is not required.
+Encoding state machine state[3:0] (in view: work.io_unit_0s_0_1_2_3(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+@N: MO225 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|There are no possible illegal states for state machine state[3:0] (in view: work.io_unit_0s_0_1_2_3(verilog)); safe FSM implementation is not required.
+Encoding state machine state[31:0] (in view: work.nand_master(verilog))
+original code -> new code
+   000000 -> 00000000000000000000000000000001
+   000001 -> 00000000000000000000000000000010
+   000010 -> 00000000000000000000000000000100
+   000011 -> 00000000000000000000000000001000
+   000100 -> 00000000000000000000000000010000
+   000101 -> 00000000000000000000000000100000
+   000110 -> 00000000000000000000000001000000
+   000111 -> 00000000000000000000000010000000
+   001000 -> 00000000000000000000000100000000
+   001001 -> 00000000000000000000001000000000
+   001010 -> 00000000000000000000010000000000
+   001011 -> 00000000000000000000100000000000
+   001100 -> 00000000000000000001000000000000
+   001101 -> 00000000000000000010000000000000
+   001110 -> 00000000000000000100000000000000
+   001111 -> 00000000000000001000000000000000
+   010000 -> 00000000000000010000000000000000
+   010001 -> 00000000000000100000000000000000
+   010010 -> 00000000000001000000000000000000
+   010011 -> 00000000000010000000000000000000
+   010100 -> 00000000000100000000000000000000
+   010101 -> 00000000001000000000000000000000
+   010110 -> 00000000010000000000000000000000
+   010111 -> 00000000100000000000000000000000
+   011000 -> 00000001000000000000000000000000
+   011001 -> 00000010000000000000000000000000
+   011010 -> 00000100000000000000000000000000
+   011011 -> 00001000000000000000000000000000
+   011100 -> 00010000000000000000000000000000
+   011101 -> 00100000000000000000000000000000
+   011110 -> 01000000000000000000000000000000
+   011111 -> 10000000000000000000000000000000
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Removing sequential instance state[10] (in view: work.nand_master(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+Encoding state machine un1_PADDR[2:0] (in view: work.nand_apb_wrapper(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 215MB peak: 215MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 217MB peak: 217MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 95MB peak: 217MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Thu Jul 31 15:24:38 2025
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Jul 31 15:24:39 2025
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: C:\Microchip\Libero_SoC_v2023.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-KS8LRTD
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202209actsp2, Build 067R, Built Mar  9 2023 04:11:46, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 125MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 139MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 139MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 139MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 139MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
+
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: BN132 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance NAND_FLASH_sb_0.CORERESETP_0.sdif3_spll_lock_q1 because it is equivalent to instance NAND_FLASH_sb_0.CORERESETP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance NAND_FLASH_sb_0.CORERESETP_0.CONFIG2_DONE_q1 because it is equivalent to instance NAND_FLASH_sb_0.CORERESETP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance NAND_FLASH_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance NAND_FLASH_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance NAND_FLASH_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance NAND_FLASH_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":98:23:101:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[8] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":98:23:101:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[9] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":98:23:101:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[10] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":98:23:101:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[11] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":98:23:101:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[12] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":98:23:101:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[13] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":98:23:101:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[14] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":98:23:101:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[15] of PrimLib.tri(prim) to GND
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 181MB peak: 181MB)
+
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z2(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine un1_PADDR[2:0] (in view: work.nand_apb_wrapper(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+Encoding state machine state[31:0] (in view: work.nand_master(verilog))
+original code -> new code
+   000000 -> 00000000000000000000000000000001
+   000001 -> 00000000000000000000000000000010
+   000010 -> 00000000000000000000000000000100
+   000011 -> 00000000000000000000000000001000
+   000100 -> 00000000000000000000000000010000
+   000101 -> 00000000000000000000000000100000
+   000110 -> 00000000000000000000000001000000
+   000111 -> 00000000000000000000000010000000
+   001000 -> 00000000000000000000000100000000
+   001001 -> 00000000000000000000001000000000
+   001010 -> 00000000000000000000010000000000
+   001011 -> 00000000000000000000100000000000
+   001100 -> 00000000000000000001000000000000
+   001101 -> 00000000000000000010000000000000
+   001110 -> 00000000000000000100000000000000
+   001111 -> 00000000000000001000000000000000
+   010000 -> 00000000000000010000000000000000
+   010001 -> 00000000000000100000000000000000
+   010010 -> 00000000000001000000000000000000
+   010011 -> 00000000000010000000000000000000
+   010100 -> 00000000000100000000000000000000
+   010101 -> 00000000001000000000000000000000
+   010110 -> 00000000010000000000000000000000
+   010111 -> 00000000100000000000000000000000
+   011000 -> 00000001000000000000000000000000
+   011001 -> 00000010000000000000000000000000
+   011010 -> 00000100000000000000000000000000
+   011011 -> 00001000000000000000000000000000
+   011100 -> 00010000000000000000000000000000
+   011101 -> 00100000000000000000000000000000
+   011110 -> 01000000000000000000000000000000
+   011111 -> 10000000000000000000000000000000
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Removing sequential instance state[10] (in view: work.nand_master(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: MO230 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Found up-down counter in view:work.nand_master(verilog) instance byte_count[31:0]  
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Found counter in view:work.nand_master(verilog) instance delay[27:0] 
+@W: FX107 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|RAM page_data[7:0] (in view: work.nand_master(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|RAM page_param[7:0] (in view: work.nand_master(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|RAM chip_id[7:0] (in view: work.nand_master(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+Encoding state machine state[4:0] (in view: work.latch_unit_0s_0_1_2_3_4(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|Found counter in view:work.latch_unit_0s_0_1_2_3_4(verilog) instance delay[26:0] 
+Encoding state machine state[4:0] (in view: work.latch_unit_1s_0_1_2_3_4(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|Found counter in view:work.latch_unit_1s_0_1_2_3_4(verilog) instance delay[26:0] 
+Encoding state machine state[3:0] (in view: work.io_unit_1s_0_1_2_3(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+@N: MO225 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|There are no possible illegal states for state machine state[3:0] (in view: work.io_unit_1s_0_1_2_3(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Found counter in view:work.io_unit_1s_0_1_2_3(verilog) instance delay[26:0] 
+Encoding state machine state[3:0] (in view: work.io_unit_0s_0_1_2_3(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+@N: MO225 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|There are no possible illegal states for state machine state[3:0] (in view: work.io_unit_0s_0_1_2_3(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Found counter in view:work.io_unit_0s_0_1_2_3(verilog) instance delay[26:0] 
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Register bit data_reg[15] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Register bit data_reg[14] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Register bit data_reg[13] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Register bit data_reg[12] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Register bit data_reg[11] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Register bit data_reg[10] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Register bit data_reg[9] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Register bit data_reg[8] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 220MB peak: 220MB)
+
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Removing sequential instance IO_WR.data_reg[8] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Removing sequential instance IO_WR.data_reg[9] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Removing sequential instance IO_WR.data_reg[10] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Removing sequential instance IO_WR.data_reg[11] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Removing sequential instance IO_WR.data_reg[12] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Removing sequential instance IO_WR.data_reg[13] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Removing sequential instance IO_WR.data_reg[14] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Removing sequential instance IO_WR.data_reg[15] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Removing sequential instance io_wr_data_in[8] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Removing sequential instance io_wr_data_in[9] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Removing sequential instance io_wr_data_in[10] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Removing sequential instance io_wr_data_in[11] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Removing sequential instance io_wr_data_in[12] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Removing sequential instance io_wr_data_in[13] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Removing sequential instance io_wr_data_in[14] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Removing sequential instance io_wr_data_in[15] (in view: work.nand_master(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 204MB peak: 220MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 201MB peak: 220MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 203MB peak: 220MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 203MB peak: 220MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 203MB peak: 220MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 202MB peak: 220MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 236MB peak: 236MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:04s		    -2.63ns		1751 /       676
+   2		0h:00m:04s		    -2.63ns		1739 /       676
+   3		0h:00m:04s		    -2.59ns		1739 /       676
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":98:24:98:24|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0._capp\.VeRRptcNt0_0_sqmuxa_0_a2 (in view: work.NAND_FLASH(verilog)) with 53 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.init_complete (in view: work.NAND_FLASH(verilog)) with 14 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.init_complete (in view: work.NAND_FLASH(verilog)) with 12 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.state[1] (in view: work.NAND_FLASH(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.state[1] (in view: work.NAND_FLASH(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.state[1] (in view: work.NAND_FLASH(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.state[0] (in view: work.NAND_FLASH(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.n_state[1] (in view: work.NAND_FLASH(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":66:4:66:9|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.apb_start (in view: work.NAND_FLASH(verilog)) with 45 loads 2 times to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.substate[3] (in view: work.NAND_FLASH(verilog)) with 46 loads 2 times to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":138:4:138:9|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_RD.state_ns_1_0_.un1_byte_count_1_sqmuxa_i (in view: work.NAND_FLASH(verilog)) with 9 loads 1 time to improve timing.
+Timing driven replication report
+Added 11 Registers via timing driven replication
+Added 10 LUTs via timing driven replication
+
+   4		0h:00m:04s		    -2.33ns		1749 /       687
+   5		0h:00m:04s		    -2.00ns		1750 /       687
+   6		0h:00m:04s		    -1.96ns		1750 /       687
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":36:0:36:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.init_complete (in view: work.NAND_FLASH(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.n_state[1] (in view: work.NAND_FLASH(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.n_state[0] (in view: work.NAND_FLASH(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":40:0:40:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.state[3] (in view: work.NAND_FLASH(verilog)) with 5 loads 1 time to improve timing.
+Timing driven replication report
+Added 4 Registers via timing driven replication
+Added 3 LUTs via timing driven replication
+
+
+   7		0h:00m:04s		    -1.92ns		1752 /       691
+@N: FP130 |Promoting Net NAND_FLASH_sb_0.AND2_0_Y_arst on CLKINT  I_316 
+@N: FP130 |Promoting Net NAND_FLASH_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_317 
+@N: FP130 |Promoting Net NAND_FLASH_sb_0.CORERESETP_0.sm0_areset_n_arst on CLKINT  I_318 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 237MB peak: 237MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 237MB peak: 237MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 717 clock pin(s) of sequential element(s)
+0 instances converted, 717 sequential instances remain driven by gated/generated clocks
+
+============================================================================================ Gated/Generated Clocks =============================================================================================
+Clock Tree ID     Driving Element                               Drive Element Type     Fanout     Sample Instance                                         Explanation                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       NAND_FLASH_sb_0.CCC_0.CCC_INST                CCC                    702        NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[19]     No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0002       NAND_FLASH_sb_0.FABOSC_0.I_RCOSC_25_50MHZ     RCOSC_25_50MHZ         15         NAND_FLASH_sb_0.CORERESETP_0.sdif0_areset_n_rcosc       No gated clock conversion method for cell cell:ACG4.SLE
+=================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 238MB peak: 238MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 238MB peak: 238MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 198MB peak: 238MB)
+
+Writing Analyst data base C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\synwork\NAND_FLASH_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 234MB peak: 238MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 235MB peak: 238MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 235MB peak: 238MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 230MB peak: 238MB)
+
+@W: MT246 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\ccc_0\nand_flash_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net NAND_FLASH_sb_0.CCC_0.GL0_net.
+@W: MT420 |Found inferred clock NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on net NAND_FLASH_sb_0.FABOSC_0.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Jul 31 15:24:45 2025
+#
+
+
+Top view:               NAND_FLASH
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\designer\NAND_FLASH\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.607
+
+                                                                 Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock                                                   Frequency     Frequency     Period        Period        Slack     Type         Group     
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     106.5 MHz     10.000        9.393         0.607     inferred     (multiple)
+NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     816.1 MHz     10.000        1.225         8.775     inferred     (multiple)
+==========================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                      Ending                                                        |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock               NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock               |  10.000      0.607  |  No paths    -      |  No paths    -      |  No paths    -    
+NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock               NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  |  10.000      8.775  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                       Starting                                                                                                                              Arrival          
+Instance                                               Reference                                           Type        Pin                Net                                                Time        Slack
+                                                       Clock                                                                                                                                                  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ADDR[15]     NAND_FLASH_sb_MSS_0_FIC_0_APB_MASTER_PADDR[15]     3.200       0.607
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ADDR[14]     NAND_FLASH_sb_MSS_0_FIC_0_APB_MASTER_PADDR[14]     3.145       0.613
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ADDR[13]     NAND_FLASH_sb_MSS_0_FIC_0_APB_MASTER_PADDR[13]     3.141       0.861
+NAND_FLASH_sb_0.CORERESETP_0.INIT_DONE_int             NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  init_done                                          0.108       0.911
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_SEL          NAND_FLASH_sb_MSS_0_FIC_0_APB_MASTER_PSELx         3.299       0.943
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ADDR[12]     NAND_FLASH_sb_MSS_0_FIC_0_APB_MASTER_PADDR[12]     3.138       0.959
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ENABLE       CoreAPB3_C0_0_APBmslave0_PENABLE                   3.603       1.111
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_WRITE        CoreAPB3_C0_0_APBmslave0_PWRITE                    3.489       1.304
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ADDR[0]      CoreAPB3_C0_0_APBmslave0_PADDR[0]                  3.340       1.662
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ADDR[1]      CoreAPB3_C0_0_APBmslave0_PADDR[1]                  3.222       1.680
+==============================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                        Starting                                                                                Required          
+Instance                                                Reference                                           Type     Pin     Net                Time         Slack
+                                                        Clock                                                                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[1]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[2]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[3]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[4]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[5]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[6]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[7]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[8]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[9]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[10]     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+==================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      9.056
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.607
+
+    Number of logic level(s):                5
+    Starting point:                          NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[15]
+    Ending point:                            NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[1] / EN
+    The start point is clocked by            NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                     Pin                Pin               Arrival     No. of    
+Name                                                                   Type        Name               Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST                     MSS_050     F_HM0_ADDR[15]     Out     3.200     3.200 f     -         
+NAND_FLASH_sb_MSS_0_FIC_0_APB_MASTER_PADDR[15]                         Net         -                  -       0.248     -           1         
+NAND_FLASH_sb_0.CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_1[0]                CFG2        A                  In      -         3.449 f     -         
+NAND_FLASH_sb_0.CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_1[0]                CFG2        Y                  Out     0.100     3.549 r     -         
+iPSELS_1[0]                                                            Net         -                  -       0.248     -           1         
+NAND_FLASH_sb_0.CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS[0]                  CFG4        B                  In      -         3.797 r     -         
+NAND_FLASH_sb_0.CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS[0]                  CFG4        Y                  Out     0.165     3.962 r     -         
+CoreAPB3_C0_0_APBmslave0_PSELx                                         Net         -                  -       1.127     -           14        
+NAND_FLASH_sb_0.nand_apb_wrapper_0.PREADY8_i_0_a2                      CFG3        A                  In      -         5.088 r     -         
+NAND_FLASH_sb_0.nand_apb_wrapper_0.PREADY8_i_0_a2                      CFG3        Y                  Out     0.077     5.166 r     -         
+N_70                                                                   Net         -                  -       0.936     -           7         
+NAND_FLASH_sb_0.nand_apb_wrapper_0._capp\.VeRRptcNt0_0_sqmuxa_0_a2     CFG4        C                  In      -         6.102 r     -         
+NAND_FLASH_sb_0.nand_apb_wrapper_0._capp\.VeRRptcNt0_0_sqmuxa_0_a2     CFG4        Y                  Out     0.203     6.305 r     -         
+VeRRptcNt0_0_sqmuxa                                                    Net         -                  -       1.170     -           19        
+NAND_FLASH_sb_0.nand_apb_wrapper_0._l0\.un1_VeRRptcNt0_RNIU9DV         CFG3        C                  In      -         7.475 r     -         
+NAND_FLASH_sb_0.nand_apb_wrapper_0._l0\.un1_VeRRptcNt0_RNIU9DV         CFG3        Y                  Out     0.226     7.701 f     -         
+VeRRptcNt013_i                                                         Net         -                  -       1.355     -           32        
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[1]                     SLE         EN                 In      -         9.056 f     -         
+==============================================================================================================================================
+Total path delay (propagation time + setup) of 9.393 is 4.308(45.9%) logic and 5.085(54.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                         Starting                                                                                                      Arrival          
+Instance                                                 Reference                                                        Type     Pin     Net                         Time        Slack
+                                                         Clock                                                                                                                          
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_0.CORERESETP_0.sdif0_areset_n_rcosc        NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif0_areset_n_rcosc        0.108       8.775
+NAND_FLASH_sb_0.CORERESETP_0.sdif1_areset_n_rcosc        NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif1_areset_n_rcosc        0.108       8.775
+NAND_FLASH_sb_0.CORERESETP_0.sdif2_areset_n_rcosc        NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif2_areset_n_rcosc        0.108       8.775
+NAND_FLASH_sb_0.CORERESETP_0.sdif3_areset_n_rcosc        NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif3_areset_n_rcosc        0.108       8.775
+NAND_FLASH_sb_0.CORERESETP_0.sm0_areset_n_rcosc          NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sm0_areset_n_rcosc          0.108       8.775
+NAND_FLASH_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif0_areset_n_rcosc_q1     0.087       9.409
+NAND_FLASH_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif1_areset_n_rcosc_q1     0.087       9.409
+NAND_FLASH_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif2_areset_n_rcosc_q1     0.087       9.409
+NAND_FLASH_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif3_areset_n_rcosc_q1     0.087       9.409
+NAND_FLASH_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sm0_areset_n_rcosc_q1       0.087       9.409
+========================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                      Starting                                                                                                      Required          
+Instance                                              Reference                                                        Type     Pin     Net                         Time         Slack
+                                                      Clock                                                                                                                           
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_0.CORERESETP_0.ddr_settled              NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sm0_areset_n_rcosc          10.000       8.775
+NAND_FLASH_sb_0.CORERESETP_0.release_sdif0_core       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc        10.000       8.775
+NAND_FLASH_sb_0.CORERESETP_0.release_sdif1_core       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif1_areset_n_rcosc        10.000       8.775
+NAND_FLASH_sb_0.CORERESETP_0.release_sdif2_core       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif2_areset_n_rcosc        10.000       8.775
+NAND_FLASH_sb_0.CORERESETP_0.release_sdif3_core       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif3_areset_n_rcosc        10.000       8.775
+NAND_FLASH_sb_0.CORERESETP_0.sdif0_areset_n_rcosc     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       sdif0_areset_n_rcosc_q1     9.745        9.409
+NAND_FLASH_sb_0.CORERESETP_0.sdif1_areset_n_rcosc     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       sdif1_areset_n_rcosc_q1     9.745        9.409
+NAND_FLASH_sb_0.CORERESETP_0.sdif2_areset_n_rcosc     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       sdif2_areset_n_rcosc_q1     9.745        9.409
+NAND_FLASH_sb_0.CORERESETP_0.sdif3_areset_n_rcosc     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       sdif3_areset_n_rcosc_q1     9.745        9.409
+NAND_FLASH_sb_0.CORERESETP_0.sm0_areset_n_rcosc       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       sm0_areset_n_rcosc_q1       9.745        9.409
+======================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      1.225
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.775
+
+    Number of logic level(s):                0
+    Starting point:                          NAND_FLASH_sb_0.CORERESETP_0.sdif0_areset_n_rcosc / Q
+    Ending point:                            NAND_FLASH_sb_0.CORERESETP_0.release_sdif0_core / ALn
+    The start point is clocked by            NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                                  Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_0.CORERESETP_0.sdif0_areset_n_rcosc     SLE      Q        Out     0.108     0.108 f     -         
+sdif0_areset_n_rcosc                                  Net      -        -       1.117     -           1         
+NAND_FLASH_sb_0.CORERESETP_0.release_sdif0_core       SLE      ALn      In      -         1.225 f     -         
+================================================================================================================
+Total path delay (propagation time + setup) of 1.225 is 0.108(8.8%) logic and 1.117(91.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 231MB peak: 238MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 231MB peak: 238MB)
+
+---------------------------------------
+Resource Usage Report for NAND_FLASH 
+
+Mapping to part: m2s050vf400std
+Cell usage:
+AND2            1 use
+CCC             1 use
+CLKINT          5 uses
+MSS_050         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+CFG1           4 uses
+CFG2           370 uses
+CFG3           264 uses
+CFG4           639 uses
+
+Carry cells:
+ARI1            489 uses - used for arithmetic functions
+ARI1            26 uses - used for Wide-Mux implementation
+Total ARI1      515 uses
+
+
+Sequential Cells: 
+SLE            691 uses
+
+DSP Blocks:    0 of 72 (0%)
+
+I/O ports: 20
+I/O primitives: 19
+BIBUF          8 uses
+INBUF          3 uses
+OUTBUF         7 uses
+TRIBUFF        1 use
+
+
+Global Clock Buffers: 5
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 8 of 69 (11%)
+Total Block RAMs (RAM64x18) : 3 of 72 (4%)
+
+Total LUTs:    1792
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 108; LUTs = 108;
+RAM1K18  Interface Logic : SLEs = 288; LUTs = 288;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  691 + 108 + 288 + 0 = 1087;
+Total number of LUTs after P&R:  1792 + 108 + 288 + 0 = 2188;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 73MB peak: 238MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:06s cputime
+# Thu Jul 31 15:24:46 2025
+
+###########################################################]

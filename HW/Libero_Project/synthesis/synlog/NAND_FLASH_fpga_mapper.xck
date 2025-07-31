@@ -1,0 +1,2 @@
+CKID0001:@|S:NAND_FLASH_sb_0.CCC_0.CCC_INST@|E:NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[19]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:NAND_FLASH_sb_0.FABOSC_0.I_RCOSC_25_50MHZ@|E:NAND_FLASH_sb_0.CORERESETP_0.sdif0_areset_n_rcosc@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 

@@ -1,0 +1,600 @@
+# Thu Jul 31 15:50:12 2025
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: C:\Microchip\Libero_SoC_v2023.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-KS8LRTD
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202209actsp2, Build 067R, Built Mar  9 2023 04:11:46, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 125MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 139MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 139MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 139MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 139MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 175MB peak: 175MB)
+
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\fabosc_0\nand_flash_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.NAND_FLASH_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: BN132 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance NAND_FLASH_sb_0.CORERESETP_0.sdif3_spll_lock_q1 because it is equivalent to instance NAND_FLASH_sb_0.CORERESETP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance NAND_FLASH_sb_0.CORERESETP_0.CONFIG2_DONE_q1 because it is equivalent to instance NAND_FLASH_sb_0.CORERESETP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance NAND_FLASH_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance NAND_FLASH_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\alimu\music\ali\nand_flash_core\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance NAND_FLASH_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance NAND_FLASH_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":111:23:114:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[8] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":111:23:114:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[9] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":111:23:114:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[10] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":111:23:114:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[11] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":111:23:114:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[12] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":111:23:114:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[13] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":111:23:114:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[14] of PrimLib.tri(prim) to GND
+@W: BN393 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":111:23:114:31|Resolving multiple drivers on net GND, connecting output pin:OUT[0] inst:un8_nand_data[15] of PrimLib.tri(prim) to GND
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 181MB peak: 181MB)
+
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z2(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine un1_PADDR[2:0] (in view: work.nand_apb_wrapper(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+Encoding state machine state[31:0] (in view: work.nand_master(verilog))
+original code -> new code
+   000000 -> 00000000000000000000000000000001
+   000001 -> 00000000000000000000000000000010
+   000010 -> 00000000000000000000000000000100
+   000011 -> 00000000000000000000000000001000
+   000100 -> 00000000000000000000000000010000
+   000101 -> 00000000000000000000000000100000
+   000110 -> 00000000000000000000000001000000
+   000111 -> 00000000000000000000000010000000
+   001000 -> 00000000000000000000000100000000
+   001001 -> 00000000000000000000001000000000
+   001010 -> 00000000000000000000010000000000
+   001011 -> 00000000000000000000100000000000
+   001100 -> 00000000000000000001000000000000
+   001101 -> 00000000000000000010000000000000
+   001110 -> 00000000000000000100000000000000
+   001111 -> 00000000000000001000000000000000
+   010000 -> 00000000000000010000000000000000
+   010001 -> 00000000000000100000000000000000
+   010010 -> 00000000000001000000000000000000
+   010011 -> 00000000000010000000000000000000
+   010100 -> 00000000000100000000000000000000
+   010101 -> 00000000001000000000000000000000
+   010110 -> 00000000010000000000000000000000
+   010111 -> 00000000100000000000000000000000
+   011000 -> 00000001000000000000000000000000
+   011001 -> 00000010000000000000000000000000
+   011010 -> 00000100000000000000000000000000
+   011011 -> 00001000000000000000000000000000
+   011100 -> 00010000000000000000000000000000
+   011101 -> 00100000000000000000000000000000
+   011110 -> 01000000000000000000000000000000
+   011111 -> 10000000000000000000000000000000
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance state[10] (in view: work.nand_master(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: MO230 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Found up-down counter in view:work.nand_master(verilog) instance byte_count[31:0]  
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Found counter in view:work.nand_master(verilog) instance delay[27:0] 
+@W: FX107 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|RAM page_data[7:0] (in view: work.nand_master(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|RAM page_param[7:0] (in view: work.nand_master(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|RAM chip_id[7:0] (in view: work.nand_master(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+Encoding state machine state[4:0] (in view: work.latch_unit_0s_0_1_2_3_4(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Found counter in view:work.latch_unit_0s_0_1_2_3_4(verilog) instance delay[26:0] 
+Encoding state machine state[4:0] (in view: work.latch_unit_1s_0_1_2_3_4(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Found counter in view:work.latch_unit_1s_0_1_2_3_4(verilog) instance delay[26:0] 
+Encoding state machine state[3:0] (in view: work.io_unit_1s_0_1_2_3(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+@N: MO225 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|There are no possible illegal states for state machine state[3:0] (in view: work.io_unit_1s_0_1_2_3(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Found counter in view:work.io_unit_1s_0_1_2_3(verilog) instance delay[26:0] 
+Encoding state machine state[3:0] (in view: work.io_unit_0s_0_1_2_3(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+@N: MO225 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|There are no possible illegal states for state machine state[3:0] (in view: work.io_unit_0s_0_1_2_3(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Found counter in view:work.io_unit_0s_0_1_2_3(verilog) instance delay[26:0] 
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Register bit data_reg[15] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Register bit data_reg[14] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Register bit data_reg[13] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Register bit data_reg[12] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Register bit data_reg[11] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Register bit data_reg[10] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Register bit data_reg[9] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Register bit data_reg[8] (in view view:work.io_unit_0s_0_1_2_3(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 220MB peak: 220MB)
+
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[8] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[9] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[10] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[11] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[12] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[13] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[14] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Removing sequential instance IO_WR.data_reg[15] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[8] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[9] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[10] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[11] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[12] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[13] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[14] (in view: work.nand_master(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Removing sequential instance io_wr_data_in[15] (in view: work.nand_master(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 204MB peak: 220MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 201MB peak: 220MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 202MB peak: 220MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 202MB peak: 220MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 203MB peak: 220MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 202MB peak: 220MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 236MB peak: 236MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:04s		    -2.63ns		1751 /       676
+   2		0h:00m:04s		    -2.63ns		1739 /       676
+   3		0h:00m:04s		    -2.59ns		1739 /       676
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":111:24:111:24|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0._capp\.VeRRptcNt0_0_sqmuxa_0_a2 (in view: work.NAND_FLASH(verilog)) with 53 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.init_complete (in view: work.NAND_FLASH(verilog)) with 14 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.init_complete (in view: work.NAND_FLASH(verilog)) with 12 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.state[1] (in view: work.NAND_FLASH(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.state[1] (in view: work.NAND_FLASH(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.state[1] (in view: work.NAND_FLASH(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.state[0] (in view: work.NAND_FLASH(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.AAL.n_state[1] (in view: work.NAND_FLASH(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_apb_wrapper.v":79:4:79:9|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.apb_start (in view: work.NAND_FLASH(verilog)) with 45 loads 2 times to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.substate[3] (in view: work.NAND_FLASH(verilog)) with 46 loads 2 times to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\nand_master.v":151:4:151:9|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_RD.state_ns_1_0_.un1_byte_count_1_sqmuxa_i (in view: work.NAND_FLASH(verilog)) with 9 loads 1 time to improve timing.
+Timing driven replication report
+Added 11 Registers via timing driven replication
+Added 10 LUTs via timing driven replication
+
+   4		0h:00m:05s		    -2.33ns		1749 /       687
+   5		0h:00m:05s		    -2.00ns		1750 /       687
+   6		0h:00m:05s		    -1.96ns		1750 /       687
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\io_unit.v":48:0:48:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.IO_WR.init_complete (in view: work.NAND_FLASH(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.n_state[1] (in view: work.NAND_FLASH(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.n_state[0] (in view: work.NAND_FLASH(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\users\alimu\music\ali\nand_flash_core\hdl\latch_unit.v":51:0:51:5|Replicating instance NAND_FLASH_sb_0.nand_apb_wrapper_0.u_nand_master.ACL.state[3] (in view: work.NAND_FLASH(verilog)) with 5 loads 1 time to improve timing.
+Timing driven replication report
+Added 4 Registers via timing driven replication
+Added 3 LUTs via timing driven replication
+
+
+   7		0h:00m:05s		    -1.92ns		1752 /       691
+@N: FP130 |Promoting Net NAND_FLASH_sb_0.AND2_0_Y_arst on CLKINT  I_316 
+@N: FP130 |Promoting Net NAND_FLASH_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_317 
+@N: FP130 |Promoting Net NAND_FLASH_sb_0.CORERESETP_0.sm0_areset_n_arst on CLKINT  I_318 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 237MB peak: 237MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 237MB peak: 237MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 717 clock pin(s) of sequential element(s)
+0 instances converted, 717 sequential instances remain driven by gated/generated clocks
+
+============================================================================================ Gated/Generated Clocks =============================================================================================
+Clock Tree ID     Driving Element                               Drive Element Type     Fanout     Sample Instance                                         Explanation                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       NAND_FLASH_sb_0.CCC_0.CCC_INST                CCC                    702        NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[19]     No gated clock conversion method for cell cell:ACG4.SLE
+@K:CKID0002       NAND_FLASH_sb_0.FABOSC_0.I_RCOSC_25_50MHZ     RCOSC_25_50MHZ         15         NAND_FLASH_sb_0.CORERESETP_0.sdif0_areset_n_rcosc       No gated clock conversion method for cell cell:ACG4.SLE
+=================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 238MB peak: 238MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 238MB peak: 238MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 198MB peak: 238MB)
+
+Writing Analyst data base C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\synthesis\synwork\NAND_FLASH_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 234MB peak: 238MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 235MB peak: 238MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 235MB peak: 238MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 230MB peak: 238MB)
+
+@W: MT246 :"c:\users\alimu\music\ali\nand_flash_core\component\work\nand_flash_sb\ccc_0\nand_flash_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net NAND_FLASH_sb_0.CCC_0.GL0_net.
+@W: MT420 |Found inferred clock NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on net NAND_FLASH_sb_0.FABOSC_0.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Jul 31 15:50:19 2025
+#
+
+
+Top view:               NAND_FLASH
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\designer\NAND_FLASH\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.607
+
+                                                                 Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock                                                   Frequency     Frequency     Period        Period        Slack     Type         Group     
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     106.5 MHz     10.000        9.393         0.607     inferred     (multiple)
+NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     816.1 MHz     10.000        1.225         8.775     inferred     (multiple)
+==========================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                      Ending                                                        |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock               NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock               |  10.000      0.607  |  No paths    -      |  No paths    -      |  No paths    -    
+NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock               NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  |  10.000      8.775  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                       Starting                                                                                                                              Arrival          
+Instance                                               Reference                                           Type        Pin                Net                                                Time        Slack
+                                                       Clock                                                                                                                                                  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ADDR[15]     NAND_FLASH_sb_MSS_0_FIC_0_APB_MASTER_PADDR[15]     3.200       0.607
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ADDR[14]     NAND_FLASH_sb_MSS_0_FIC_0_APB_MASTER_PADDR[14]     3.145       0.613
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ADDR[13]     NAND_FLASH_sb_MSS_0_FIC_0_APB_MASTER_PADDR[13]     3.141       0.861
+NAND_FLASH_sb_0.CORERESETP_0.INIT_DONE_int             NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  init_done                                          0.108       0.911
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_SEL          NAND_FLASH_sb_MSS_0_FIC_0_APB_MASTER_PSELx         3.299       0.943
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ADDR[12]     NAND_FLASH_sb_MSS_0_FIC_0_APB_MASTER_PADDR[12]     3.138       0.959
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ENABLE       CoreAPB3_C0_0_APBmslave0_PENABLE                   3.603       1.111
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_WRITE        CoreAPB3_C0_0_APBmslave0_PWRITE                    3.489       1.304
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ADDR[0]      CoreAPB3_C0_0_APBmslave0_PADDR[0]                  3.340       1.662
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_050     F_HM0_ADDR[1]      CoreAPB3_C0_0_APBmslave0_PADDR[1]                  3.222       1.680
+==============================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                        Starting                                                                                Required          
+Instance                                                Reference                                           Type     Pin     Net                Time         Slack
+                                                        Clock                                                                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[1]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[2]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[3]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[4]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[5]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[6]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[7]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[8]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[9]      NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[10]     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      VeRRptcNt013_i     9.662        0.607
+==================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      9.056
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.607
+
+    Number of logic level(s):                5
+    Starting point:                          NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[15]
+    Ending point:                            NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[1] / EN
+    The start point is clocked by            NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                     Pin                Pin               Arrival     No. of    
+Name                                                                   Type        Name               Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_0.NAND_FLASH_sb_MSS_0.MSS_ADLIB_INST                     MSS_050     F_HM0_ADDR[15]     Out     3.200     3.200 f     -         
+NAND_FLASH_sb_MSS_0_FIC_0_APB_MASTER_PADDR[15]                         Net         -                  -       0.248     -           1         
+NAND_FLASH_sb_0.CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_1[0]                CFG2        A                  In      -         3.449 f     -         
+NAND_FLASH_sb_0.CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_1[0]                CFG2        Y                  Out     0.100     3.549 r     -         
+iPSELS_1[0]                                                            Net         -                  -       0.248     -           1         
+NAND_FLASH_sb_0.CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS[0]                  CFG4        B                  In      -         3.797 r     -         
+NAND_FLASH_sb_0.CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS[0]                  CFG4        Y                  Out     0.165     3.962 r     -         
+CoreAPB3_C0_0_APBmslave0_PSELx                                         Net         -                  -       1.127     -           14        
+NAND_FLASH_sb_0.nand_apb_wrapper_0.PREADY8_i_0_a2                      CFG3        A                  In      -         5.088 r     -         
+NAND_FLASH_sb_0.nand_apb_wrapper_0.PREADY8_i_0_a2                      CFG3        Y                  Out     0.077     5.166 r     -         
+N_70                                                                   Net         -                  -       0.936     -           7         
+NAND_FLASH_sb_0.nand_apb_wrapper_0._capp\.VeRRptcNt0_0_sqmuxa_0_a2     CFG4        C                  In      -         6.102 r     -         
+NAND_FLASH_sb_0.nand_apb_wrapper_0._capp\.VeRRptcNt0_0_sqmuxa_0_a2     CFG4        Y                  Out     0.203     6.305 r     -         
+VeRRptcNt0_0_sqmuxa                                                    Net         -                  -       1.170     -           19        
+NAND_FLASH_sb_0.nand_apb_wrapper_0._l0\.un1_VeRRptcNt0_RNIU9DV         CFG3        C                  In      -         7.475 r     -         
+NAND_FLASH_sb_0.nand_apb_wrapper_0._l0\.un1_VeRRptcNt0_RNIU9DV         CFG3        Y                  Out     0.226     7.701 f     -         
+VeRRptcNt013_i                                                         Net         -                  -       1.355     -           32        
+NAND_FLASH_sb_0.nand_apb_wrapper_0.VeRRptcNt0_1[1]                     SLE         EN                 In      -         9.056 f     -         
+==============================================================================================================================================
+Total path delay (propagation time + setup) of 9.393 is 4.308(45.9%) logic and 5.085(54.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                         Starting                                                                                                      Arrival          
+Instance                                                 Reference                                                        Type     Pin     Net                         Time        Slack
+                                                         Clock                                                                                                                          
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_0.CORERESETP_0.sdif0_areset_n_rcosc        NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif0_areset_n_rcosc        0.108       8.775
+NAND_FLASH_sb_0.CORERESETP_0.sdif1_areset_n_rcosc        NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif1_areset_n_rcosc        0.108       8.775
+NAND_FLASH_sb_0.CORERESETP_0.sdif2_areset_n_rcosc        NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif2_areset_n_rcosc        0.108       8.775
+NAND_FLASH_sb_0.CORERESETP_0.sdif3_areset_n_rcosc        NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif3_areset_n_rcosc        0.108       8.775
+NAND_FLASH_sb_0.CORERESETP_0.sm0_areset_n_rcosc          NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sm0_areset_n_rcosc          0.108       8.775
+NAND_FLASH_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif0_areset_n_rcosc_q1     0.087       9.409
+NAND_FLASH_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif1_areset_n_rcosc_q1     0.087       9.409
+NAND_FLASH_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif2_areset_n_rcosc_q1     0.087       9.409
+NAND_FLASH_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sdif3_areset_n_rcosc_q1     0.087       9.409
+NAND_FLASH_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sm0_areset_n_rcosc_q1       0.087       9.409
+========================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                      Starting                                                                                                      Required          
+Instance                                              Reference                                                        Type     Pin     Net                         Time         Slack
+                                                      Clock                                                                                                                           
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_0.CORERESETP_0.ddr_settled              NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sm0_areset_n_rcosc          10.000       8.775
+NAND_FLASH_sb_0.CORERESETP_0.release_sdif0_core       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc        10.000       8.775
+NAND_FLASH_sb_0.CORERESETP_0.release_sdif1_core       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif1_areset_n_rcosc        10.000       8.775
+NAND_FLASH_sb_0.CORERESETP_0.release_sdif2_core       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif2_areset_n_rcosc        10.000       8.775
+NAND_FLASH_sb_0.CORERESETP_0.release_sdif3_core       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif3_areset_n_rcosc        10.000       8.775
+NAND_FLASH_sb_0.CORERESETP_0.sdif0_areset_n_rcosc     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       sdif0_areset_n_rcosc_q1     9.745        9.409
+NAND_FLASH_sb_0.CORERESETP_0.sdif1_areset_n_rcosc     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       sdif1_areset_n_rcosc_q1     9.745        9.409
+NAND_FLASH_sb_0.CORERESETP_0.sdif2_areset_n_rcosc     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       sdif2_areset_n_rcosc_q1     9.745        9.409
+NAND_FLASH_sb_0.CORERESETP_0.sdif3_areset_n_rcosc     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       sdif3_areset_n_rcosc_q1     9.745        9.409
+NAND_FLASH_sb_0.CORERESETP_0.sm0_areset_n_rcosc       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       sm0_areset_n_rcosc_q1       9.745        9.409
+======================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      1.225
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.775
+
+    Number of logic level(s):                0
+    Starting point:                          NAND_FLASH_sb_0.CORERESETP_0.sdif0_areset_n_rcosc / Q
+    Ending point:                            NAND_FLASH_sb_0.CORERESETP_0.release_sdif0_core / ALn
+    The start point is clocked by            NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                                  Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_0.CORERESETP_0.sdif0_areset_n_rcosc     SLE      Q        Out     0.108     0.108 f     -         
+sdif0_areset_n_rcosc                                  Net      -        -       1.117     -           1         
+NAND_FLASH_sb_0.CORERESETP_0.release_sdif0_core       SLE      ALn      In      -         1.225 f     -         
+================================================================================================================
+Total path delay (propagation time + setup) of 1.225 is 0.108(8.8%) logic and 1.117(91.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 231MB peak: 238MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 231MB peak: 238MB)
+
+---------------------------------------
+Resource Usage Report for NAND_FLASH 
+
+Mapping to part: m2s050vf400std
+Cell usage:
+AND2            1 use
+CCC             1 use
+CLKINT          5 uses
+MSS_050         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+CFG1           4 uses
+CFG2           370 uses
+CFG3           264 uses
+CFG4           639 uses
+
+Carry cells:
+ARI1            489 uses - used for arithmetic functions
+ARI1            26 uses - used for Wide-Mux implementation
+Total ARI1      515 uses
+
+
+Sequential Cells: 
+SLE            691 uses
+
+DSP Blocks:    0 of 72 (0%)
+
+I/O ports: 20
+I/O primitives: 19
+BIBUF          8 uses
+INBUF          3 uses
+OUTBUF         7 uses
+TRIBUFF        1 use
+
+
+Global Clock Buffers: 5
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 8 of 69 (11%)
+Total Block RAMs (RAM64x18) : 3 of 72 (4%)
+
+Total LUTs:    1792
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 108; LUTs = 108;
+RAM1K18  Interface Logic : SLEs = 288; LUTs = 288;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  691 + 108 + 288 + 0 = 1087;
+Total number of LUTs after P&R:  1792 + 108 + 288 + 0 = 2188;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 74MB peak: 238MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Thu Jul 31 15:50:19 2025
+
+###########################################################]

@@ -1,0 +1,13 @@
+Software Version: 2023.1.0.6
+Opened 'C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\designer\NAND_FLASH\NAND_FLASH_fp\NAND_FLASH.pro'
+PDB file 'C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\designer\NAND_FLASH\NAND_FLASH.pdb' has been loaded successfully.
+DESIGN : NAND_FLASH;  CHECKSUM : 2754;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\designer\NAND_FLASH\NAND_FLASH.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\designer\NAND_FLASH\NAND_FLASH.ppd'; file programs Fabric.
+Fabric component bitstream digest: dd95a7030a6570c468bc1cabfa9edd4c5988fdf2455e53ed6bfce9c97e6ffb33
+Entire bitstream digest: 8f4158001f7e567cd91124652ff33d0a7b2ff4fe43752963ccda8fac8f65b2c4
+Finished: Thu Jul 31 15:51:37 2025 (Elapsed time 00:00:21)
+
+Project saved.
+Project closed.

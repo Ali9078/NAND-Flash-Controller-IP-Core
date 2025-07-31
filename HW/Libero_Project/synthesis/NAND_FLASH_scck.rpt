@@ -1,0 +1,50 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: C:\Microchip\Libero_SoC_v2023.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-KS8LRTD
+
+Implementation : synthesis
+
+# Written on Thu Jul 31 15:50:08 2025
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\designer\NAND_FLASH\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                            Requested     Requested     Clock        Clock          Clock
+Level     Clock                                                            Frequency     Period        Type         Group          Load 
+----------------------------------------------------------------------------------------------------------------------------------------
+0 -       NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)     720  
+                                                                                                                                        
+0 -       NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     15   
+========================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                                 Clock     Source                                                               Clock Pin                                                            Non-clock Pin     Non-clock Pin                                                      
+Clock                                                            Load      Pin                                                                  Seq Example                                                          Seq Example       Comb Example                                                       
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock                  720       NAND_FLASH_sb_0.CCC_0.CCC_INST.GL0(CCC)                              NAND_FLASH_sb_0.nand_apb_wrapper_0.trigger_activate_next_cycle.C     -                 NAND_FLASH_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                                          
+NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        NAND_FLASH_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     NAND_FLASH_sb_0.CORERESETP_0.release_sdif0_core.C                    -                 NAND_FLASH_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+==========================================================================================================================================================================================================================================================================================================

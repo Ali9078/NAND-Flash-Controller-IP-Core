@@ -1,0 +1,103 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: C:\Microchip\Libero_SoC_v2023.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-KS8LRTD
+
+Implementation : synthesis
+
+# Written on Thu Jul 31 15:50:11 2025
+
+##### DESIGN INFO #######################################################
+
+Top View:                "NAND_FLASH"
+Constraint File(s):      "C:\Users\alimu\Music\Ali\NAND_FLASH_CORE\designer\NAND_FLASH\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                                         Ending                                                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock                  NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock                  |     10.000           |     No paths         |     No paths         |     No paths                         
+NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock                  NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     NAND_FLASH_sb_CCC_0_FCCC|GL0_net_inferred_clock                  |     Diff grp         |     No paths         |     No paths         |     No paths                         
+NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     NAND_FLASH_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
+=============================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:DEVRST_N
+p:MMUART_0_RXD
+p:MMUART_0_TXD
+p:nand_ale
+p:nand_cle
+p:nand_data[0] (bidir end point)
+p:nand_data[0] (bidir start point)
+p:nand_data[1] (bidir end point)
+p:nand_data[1] (bidir start point)
+p:nand_data[2] (bidir end point)
+p:nand_data[2] (bidir start point)
+p:nand_data[3] (bidir end point)
+p:nand_data[3] (bidir start point)
+p:nand_data[4] (bidir end point)
+p:nand_data[4] (bidir start point)
+p:nand_data[5] (bidir end point)
+p:nand_data[5] (bidir start point)
+p:nand_data[6] (bidir end point)
+p:nand_data[6] (bidir start point)
+p:nand_data[7] (bidir end point)
+p:nand_data[7] (bidir start point)
+p:nand_nce
+p:nand_nce2
+p:nand_nre
+p:nand_nwe
+p:nand_nwp
+p:nand_rnb
+p:nand_rnb2
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

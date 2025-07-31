@@ -1,0 +1,32 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.1 (Version 2023.1.0.6)
+
+Date      :  Thu Jul 31 15:18:38 2025
+Project   :  C:\Users\alimu\Music\Ali\NAND_FLASH_CORE
+Component :  NAND_FLASH_sb_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS/NAND_FLASH_sb_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS/NAND_FLASH_sb_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS/NAND_FLASH_sb_MSS_pre.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS/NAND_FLASH_sb_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS/CM3_compile_bfm.tcl
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS/user.bfm
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS/test.bfm
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS/CM3_compile_bfm.tcl
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS/test.bfm
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+Firmware files for all Software IDE tools:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS/sys_config_mss_clocks.h
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS/sys_config_mss_clocks.h
+
+Constraint files:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb_MSS\NAND_FLASH_sb_MSS.sdc

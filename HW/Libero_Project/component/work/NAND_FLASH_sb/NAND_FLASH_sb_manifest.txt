@@ -1,0 +1,27 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.1 (Version 2023.1.0.6)
+
+Date      :  Thu Jul 31 15:22:09 2025
+Project   :  C:\Users\alimu\Music\Ali\NAND_FLASH_CORE
+Component :  NAND_FLASH_sb
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb/CCC_0/NAND_FLASH_sb_CCC_0_FCCC.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb/FABOSC_0/NAND_FLASH_sb_FABOSC_0_OSC.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb/NAND_FLASH_sb.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb/subsystem.bfm
+
+Constraint files:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb\CCC_0\NAND_FLASH_sb_CCC_0_FCCC.sdc
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH_sb\FABOSC_0\NAND_FLASH_sb_FABOSC_0_OSC.sdc

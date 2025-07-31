@@ -1,0 +1,29 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.1 (Version 2023.1.0.6)
+
+Date      :  Thu Jul 31 15:20:25 2025
+Project   :  C:\Users\alimu\Music\Ali\NAND_FLASH_CORE
+Component :  CoreAPB3_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/CoreAPB3_C0/CoreAPB3_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/wave_user.do
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec_compile.tcl
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.exe
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.lin
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/coreapb3_usertb_master.bfm
+
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/coreparameters.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslave.v
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/test/user/testbench.v
+

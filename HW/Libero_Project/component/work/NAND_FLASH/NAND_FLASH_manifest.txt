@@ -1,0 +1,14 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.1 (Version 2023.1.0.6)
+
+Date      :  Thu Jul 31 15:22:37 2025
+Project   :  C:\Users\alimu\Music\Ali\NAND_FLASH_CORE
+Component :  NAND_FLASH
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH/NAND_FLASH.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/alimu/Music/Ali/NAND_FLASH_CORE/component/work/NAND_FLASH/subsystem.bfm
+

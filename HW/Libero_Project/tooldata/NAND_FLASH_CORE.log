@@ -1,0 +1,16 @@
+Project Name: NAND_FLASH_CORE
+Location: C:\Users\alimu\Music\Ali\NAND_FLASH_CORE
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S050-FG484I
+Family         : SmartFusion2
+Die            : M2S050
+Package        : 484 FBGA
+Speed          : STD
+Core Voltage   : 1.2
+Range          : IND

@@ -1,4 +1,4 @@
-# NAND Flash Controller IP Core (Verilog)
+# NAND Flash Controller IP Core
 
 ## Overview
 

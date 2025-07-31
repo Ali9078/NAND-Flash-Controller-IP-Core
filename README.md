@@ -8,7 +8,7 @@ This project is a Verilog conversion of the VHDL-based NAND flash controller ori
 
 The IP has been successfully tested on a **Microsemi M2S050 FG484I** development board with a **Micron MT29F128G08AJAAAWP** NAND flash IC. Basic C drivers are also included to facilitate firmware development and interaction with the controller from a CPU.
 
-## ⚠️ Current Status & Known Issues
+## Current Status & Known Issues
 
 The core is functional and capable of performing read and write operations to a connected NAND flash device.
 

@@ -1,0 +1,147 @@
+# Microchip I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: 2023.1 2023.1.0.6
+
+# Family: SmartFusion2 , Die: M2S050 , Package: 484 FBGA
+
+# Date generated: Thu Jul 31 16:12:53 2025 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io nand_ale        \
+    -pinname K17       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io nand_cle        \
+    -pinname F18       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {nand_data[0]}  \
+    -pinname F20       \
+    -fixed yes         \
+    -DIRECTION INOUT
+
+
+set_io {nand_data[1]}  \
+    -pinname F21       \
+    -fixed yes         \
+    -DIRECTION INOUT
+
+
+set_io {nand_data[2]}  \
+    -pinname K20       \
+    -fixed yes         \
+    -DIRECTION INOUT
+
+
+set_io {nand_data[3]}  \
+    -pinname K21       \
+    -fixed yes         \
+    -DIRECTION INOUT
+
+
+set_io {nand_data[4]}  \
+    -pinname E22       \
+    -fixed yes         \
+    -DIRECTION INOUT
+
+
+set_io {nand_data[5]}  \
+    -pinname E21       \
+    -fixed yes         \
+    -DIRECTION INOUT
+
+
+set_io {nand_data[6]}  \
+    -pinname B22       \
+    -fixed yes         \
+    -DIRECTION INOUT
+
+
+set_io {nand_data[7]}  \
+    -pinname U19       \
+    -fixed yes         \
+    -DIRECTION INOUT
+
+
+set_io nand_nce        \
+    -pinname L18       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io nand_nce2       \
+    -pinname F19       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io nand_nre        \
+    -pinname L19       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io nand_nwe        \
+    -pinname P18       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io nand_nwp        \
+    -pinname N16       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io nand_rnb       \
+    -pinname G19      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io nand_rnb2      \
+    -pinname H20      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+

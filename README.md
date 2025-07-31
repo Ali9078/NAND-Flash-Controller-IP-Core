@@ -4,7 +4,7 @@
 
 This repository contains a synthesizable **NAND Flash Controller IP Core** written in Verilog. The core provides an APB (Advanced Peripheral Bus) slave interface for easy integration into SoC designs and is designed to communicate with standard raw NAND flash memory devices.
 
-This project is a Verilog conversion of the VHDL-based NAND flash controller originally developed by **Alexey Lyashko** and made available on [OpenCores](https://opencores.org/projects/onfi_nand_controller). It aims to provide a Verilog alternative for developers while maintaining the core logic and functionality of the original design. Furthermore, the original VHDL code has been modified to support NAND flash devices with two separate chip enable signals (`CE#` and `CE2#`), allowing it to address two distinct chips.
+This project is a Verilog conversion of the VHDL-based NAND flash controller originally developed by **Alexey Lyashko** and made available on [OpenCores](https://opencores.org/projects/nand_controller). It aims to provide a Verilog alternative for developers while maintaining the core logic and functionality of the original design. Furthermore, the original VHDL code has been modified to support NAND flash devices with two separate chip enable signals (`CE#` and `CE2#`), allowing it to address two distinct chips.
 
 The IP has been successfully tested on a **Microsemi M2S050 FG484I** development board with a **Micron MT29F128G08AJAAAWP** NAND flash IC. Basic C drivers are also included to facilitate firmware development and interaction with the controller from a CPU.
 

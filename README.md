@@ -12,12 +12,20 @@ The IP has been successfully tested on a **Microsemi M2S050 FG484I** development
 
 The core is functional and capable of performing read and write operations to a connected NAND flash device.
 
-However, there is a significant known issue that needs to be resolved:
+However, several significant issues remain:
 
-* **Read Data Offset Bug:** When reading a page from the NAND flash, the first **295 bytes** of the data returned by the core are all zeroes (`0x00`). The subsequent bytes of the page are read correctly.
-* **Debugging Insights:** Verification with an oscilloscope indicates that the NAND flash chip is correctly sending the entire data stream from the first byte. This suggests the problem is not with the flash device or the physical signal integrity, but rather with how the Verilog core captures or stores the incoming data in its internal buffer.
+- **Read Data Offset Bug (295 Bytes Shift):**  
+  It was found that the reason for the 295-byte shift in read data is insufficient delay between reading a page from the NAND flash and then accessing the internal buffer of the IP core to read the data. There must be a delay of a few milliseconds after the internal buffer is filled before data can be reliably read. Currently, a 25 ms delay has been added in the C drivers to address this timing requirement, mitigating the issue.
 
-**This is the primary bug that needs to be addressed in future development.**
+- **Major Read/Write Data Issues:**  
+  - Not all pages are being read correctly after they have been programmed. This occasionally results in corrupted or incomplete data retrieval.  
+  - Overwriting data on previously written pages leads to unpredictable behavior and data integrity problems. The controller does not reliably handle multiple programs on the same page, causing data corruption or loss.
+
+- **Debugging Insights:**  
+  Verification with an oscilloscope confirms the NAND flash chip is correctly sending the entire data stream from the first byte. This indicates the problem is not with the flash device or physical signal integrity but with how the Verilog core captures or stores the incoming data in its internal buffer.
+
+**These issues are critical and must be addressed in future development and testing efforts.**
+
 
 ## Features
 

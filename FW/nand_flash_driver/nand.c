@@ -89,8 +89,9 @@ void nand_read_param_page(uint8_t* param_page, uint8_t chip_select){
     nand_select_chip(chip_select);
     nand_reset_index();
     nand_send_command(CMD_READ_PARAM_PAGE);
+    for(uint64_t i = 0; i<65535; i++){} // adding 25 ms delay 
     nand_reset_index();
-
+    
     for(int i = 0; i<256;i++){
         nand_send_command(CMD_GET_PARAM_PAGE_BYTE);
 
@@ -153,6 +154,8 @@ void nand_read_page(uint8_t *storage_buffer, uint32_t size, uint16_t column_addr
 
     nand_send_command(CMD_GET_PAGE);
 
+    for(uint64_t i = 0; i<65535; i++){} // adding 25 ms delay 
+    
     nand_reset_index();
 
     for(int i=0; i<size; i++){
@@ -162,6 +165,7 @@ void nand_read_page(uint8_t *storage_buffer, uint32_t size, uint16_t column_addr
 
     nand_disable_all_chips();
 }
+
 
 
 
